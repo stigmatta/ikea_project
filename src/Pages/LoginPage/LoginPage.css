@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --black-color:  #1F1F1F;
+    --label-black:#000000;
+    --form-grey:#646464;
+}
+
+.LoginPage{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ImagePart{
+    background: url(./assets/MainImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 590px;
+    height: 939px;
+    top: -3px;
+   
+}
+
+#go-back{
+    margin-top: 43px;
+    margin-left: 40px;
+}
+
+.ImagePartText{
+    text-transform: uppercase;
+    width: 478px;
+    color : var(--black-color);
+    height: 78px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: center;
+    margin-top: 163px;
+    margin-left: 51px;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+    opacity: 0px;
+}
+#FormPart{
+    margin-top: 173px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 156px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+  
+    width: 428px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17.07px;
+    text-align: left;
+    color: var(--label-black)
+}
+
+input {
+    display: block;
+    width: 426px;
+    padding-left: 10px;
+    height: 50px;   
+    margin-top: 11.5px;
+    border-radius: 5px;
+    border: 1px solid var(--form-grey)
+}
+input[type="email" i]{
+    width: 414px !important;
+}
+
+.password-input
+{
+    width: 450px;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+small{
+    display: block;
+    margin-top: 10px;
+    color: var(--form-grey);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    width: 423px;
+    height: 42px;
+
+}
+
+.password-input{
+    display: flex;
+    flex-direction: row;
+}
+
+#show-password{
+    position: relative;
+    top:30px;
+    right: 40px;
+    width: 22px;
+    height: 15px;
+}
+
+#forgot-password{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+input[type="checkbox" i]{
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-top: 0;
+}
+
+#save-data-div{
+    display: flex;
+    height: 24px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#save-label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color:var(--form-grey);
+    margin-left: 20px;
+}
+
+#save-label,input[type="checkbox" i]{
+    display: inline;
+}
+
+#info-button{
+    width: 20px;
+    height: 20px;
+    margin-left: 180px;
+}
+
+#continue-button{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 428px;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+#create-acc{
+    margin-top:87.5px;
+    width: 412px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    color:black;
+}
+
+#create-acc-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 17.07px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: transparent;
+    width: 428px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#a-for-create{
+    text-decoration: none !important;
+}

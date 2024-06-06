@@ -1,0 +1,46 @@
+
+   
+.RegistrationPage{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#ImagePart{
+    width: 590px;
+    height: 1343px;
+    margin-top: -3px;
+    background: url(./assets/MainImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#FormPart{
+    margin-top: 173px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 156px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+  
+    width: 428px;
+}
+#FormPart{
+    margin-left: 156px;
+    margin-top: 89px;
+}
+
+#save-data-div{
+    margin-top: 30px;
+}
+
+input[type="checkbox" i]{
+    width: 42.2px !important;
+    height: 24px !important;
+}
