@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 // import { useHistory } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
+
+
 import './LoginPage.css';
+import '../../common_styles/LoginAndRegistration.css'
+
+
 import ShowPassword from './assets/ShowPassword.png';
 import Info from './assets/Info.png'
 import GoBack from '../../assets/GoBack.png'
@@ -20,14 +25,14 @@ function LoginPage() {
   
 
   return (
-    <div className="LoginPage">
+    <div className="Page">
       <div className="ImagePart">
         <a href = ""><img id = "go-back" src = {GoBack} alt = "go-back"></img></a>
         <h1 className="ImagePartText">заповніть вхід до облікового запису</h1>
       </div>
       <div id = "FormPart">
         <form>
-          <label>
+          <label className='login-label'>
             Електронна пошта або мобільний номер
             <input type="email" />
             <small>
@@ -37,7 +42,7 @@ function LoginPage() {
             <a href=""><small>More info about Privacy Policy</small></a>
           </label>
             
-          <label>
+          <label className='login-label'>
               Пароль
               <div className='password-input'>
 
@@ -50,7 +55,7 @@ function LoginPage() {
 
           <div id = "save-data-div">
             <input type="checkbox" id="save-data" name="save-data" value="Зберегти інформацію"></input>
-            <label id = "save-label" for="save-data">Зберегти інформацію </label><br></br>
+            <label className='grey-label' id = "save-label" for="save-data">Зберегти інформацію </label><br></br>
             <img id = "info-button" src = {Info} alt="info-button" />
           </div>
 
@@ -59,7 +64,7 @@ function LoginPage() {
         </form>
 
       <small id = "create-acc">У вас ще немає облікового запису? Створіть його:</small>
-      <Link to="/registration">
+      <Link className='browser-link' to="/registration">
         <button type = "button" id ="create-acc-button">створити аккаунт</button>
       </Link>
     </div>
