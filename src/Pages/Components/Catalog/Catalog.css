@@ -1,0 +1,57 @@
+
+
+
+
+.catalog2{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.catalog_position_start{
+    width: 183px;
+height: 204px;
+top: 0px;
+left: 0px;
+padding: 7px 11px 6px 11px;
+gap: 0px;
+opacity: 0px;
+}
+
+.catalog_position{
+    width: 183px;
+height: 204px;
+top: 0px;
+left: 0px;
+padding: 7px 11px 6px 11px;
+gap: 0px;
+opacity: 0px;
+padding-left: 66px;
+}
+
+.catalog_position_image{
+    width: 159.32px;
+height: 155.62px;
+top: 7px;
+left: 12px;
+gap: 0px;
+border-radius: 15px 15px 15px 15px;
+opacity: 0px;
+
+}
+
+.catalog_position_name{
+font-size: 14px;
+font-weight: 600;
+line-height: 17.07px;
+text-align: center;
+
+}
+
+.catalog_row{
+    display: flex;
+    flex-direction: row;
+}

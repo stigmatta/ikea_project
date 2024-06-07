@@ -1,0 +1,136 @@
+
+
+.menu{
+    top: 46px;
+    left: 94px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    text-align: center;
+}
+
+.logo{
+    width: 112px;
+height: 36px;
+gap: 0px;
+opacity: 0px;
+margin-left: 20px;
+top: 53px;
+left: 180px;
+position: absolute;
+
+}
+
+.symbol{
+    width: 20px;
+height: 20px;
+top: 2px;
+left: 4px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.positions{
+    width: Fixed (71px)px;
+    height: Fixed (36px)px;
+    top: 53px;
+    left: 332px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.rooms{
+    width: Fixed (78px)px;
+    height: Fixed (36px)px;
+    top: 53px;
+    left: 443px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+
+}
+
+.design{
+    width: Hug (76px)px;
+    height: Fixed (36px)px;
+    top: 53px;
+    left: 561px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+
+}
+
+.city{
+
+    width: Hug (87px)px;
+    height: Fixed (36px)px;
+    top: 53px;
+    left: 1313px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    
+    position: absolute;
+}
+
+.login{
+
+    width: Hug (252px)px;
+    height: Fixed (36px)px;
+    top: 53px;
+    left: 1440px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+
+}
+
+.favorite{
+
+    width: 25px;
+height: 24px;
+top: 59px;
+left: 1772px;
+padding: 3px 1.95px 3px 1.95px;
+gap: 0px;
+opacity: 0px;
+
+position: absolute;
+}
+
+.basket{
+    width: 20px;
+height: 18px;
+top: 62px;
+left: 1732px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+
+
+}
+
+.search_bar{
+    width: Fixed (1,271px)px;
+height: Fixed (50px)px;
+top: 109px;
+left: 324px;
+padding: 10px 0px 0px 0px;
+gap: 10px;
+border-radius: 30px 30px 30px 30px;
+opacity: 0px;
+position: absolute;
+}
+.header{
+    top: 46px;
+    left: 94px;
+    position: absolute;
+    
+}
