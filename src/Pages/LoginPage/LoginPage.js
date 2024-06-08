@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-// import { useHistory } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
+import BlackButton from '../Components/BlackButton/BlackButton'
+import TransparentButton from '../Components/TransparentButton/TransparentButton';
 
 
 import './LoginPage.css';
+import '../../common_styles/FontAndColors.css'
 import '../../common_styles/LoginAndRegistration.css'
 
 
@@ -59,13 +61,13 @@ function LoginPage() {
             <img id = "info-button" src = {Info} alt="info-button" />
           </div>
 
-          <button type="submit" id="continue-button">ПРОДОВЖИТИ</button>
+          <BlackButton title = "ПРОДОВЖИТИ" type = "submit" width = '428px' height = '50px'></BlackButton>
         
         </form>
 
       <small id = "create-acc">У вас ще немає облікового запису? Створіть його:</small>
       <Link className='browser-link' to="/registration">
-        <button type = "button" id ="create-acc-button">створити аккаунт</button>
+        <TransparentButton title = "створити аккаунт" type = "button"></TransparentButton>
       </Link>
     </div>
     </div>

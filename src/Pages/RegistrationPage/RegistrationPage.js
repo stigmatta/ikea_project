@@ -1,9 +1,14 @@
 import './RegistrationPage.css';
 import './../../common_styles/LoginAndRegistration.css'
+import '../../common_styles/FontAndColors.css'
+
 
 import { useState } from 'react';
+import BlackButton from '../Components/BlackButton/BlackButton';
+
 import GoBack from '../../assets/GoBack.png'
 import ShowPassword from '../LoginPage/assets/ShowPassword.png'
+import '../../common_styles/FontAndColors.css'
 
 
 function RegistrationPage(){
@@ -143,7 +148,7 @@ function RegistrationPage(){
                         <label className='grey-label' id = "registration-label" for="save-data">Я, ознайомлений з Політикою конфіденційності з обробки та захисту персональних даних </label>
                     </div>
 
-                    <button type="submit" id="continue-button">ПРОДОВЖИТИ</button>
+                    <BlackButton title = "ПРОДОВЖИТИ" type = "submit" width = "428px" height = '50px'></BlackButton>
                 </form>
             </div>
         </div>

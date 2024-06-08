@@ -1,0 +1,12 @@
+.BlackButton{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+}

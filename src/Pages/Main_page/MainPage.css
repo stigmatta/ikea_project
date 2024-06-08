@@ -1,0 +1,101 @@
+.MainPage {
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+#MainPagePhotoPart{
+    width: 1921px;
+    height: 1026px;
+    background-image: url('./Assets/main_page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#all-for-home{
+    width: 100%;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 117.02px;
+    margin-top: 57px;
+}
+
+#main-page-black-button{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#main-page-220px{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-block: 0;
+}
+#create-and-catalogue{
+    display: flex;
+    flex-direction: row;
+    gap:52px;
+}
+
+#card-offers{
+    display: flex;
+    flex-direction: row;
+    gap:53px;
+}
+
+#under-card-offers{
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#MainPageOtherPart{
+    padding-inline: 220px;
+}
+
+.other-part-title{
+    margin-top: 90.5px;
+    margin-bottom: 30.5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+}
+
+#big-rect-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    width: fit-content;
+    height: 364px;
+}
+
+#big-rect-card-image{
+    width: 1500px;
+    border-radius: 15px 0 0 15px;
+    background-image: url(./Assets/BigRectCard.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#big-rect-card-bar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15px 15px 0;
+    width: 80px;
+    background-color: var(--rect-card-grey);
+}
+
+#big-rect-card-bar img{
+    rotate: 180deg;
+}

@@ -1,0 +1,40 @@
+.RectCard {
+    height: fit-content;
+    border-radius: 15px;
+    position: relative; 
+}
+
+.image-part {
+    height: 320px;
+    width: 781px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.title-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    background-color: var(--rect-card-grey);
+    border-radius: 0 0 15px 15px;
+}
+
+span{
+    margin: 0 auto;
+}
+
+.title-part img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 25px;
+    rotate: 180deg;
+}
+
