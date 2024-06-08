@@ -1,5 +1,5 @@
 
-
+import './FeatureStyle.css'
 const Feature = ({ imgSrc, title, description, style }) => {
   return (
     <div className="features-frame" style={style}>

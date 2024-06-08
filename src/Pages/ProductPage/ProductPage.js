@@ -1,10 +1,10 @@
 
 import './ProductPageStyle.css';
-import Title from './Components/Title';
-import Gallery from './Components/Gallery';
-import Feature from './Components/Feature';
-import Section from './Components/Section';
-import TestCarousel from './Components/TestCarousel';
+import Title from './Components/Title/Title';
+import Gallery from './Components/Gallery/Gallery';
+import Feature from './Components/Feature/Feature';
+import Section from './Components/Section/Section';
+import TestCarousel from './Components/Carousel/TestCarousel';
 
 import deliveryImg from './assets/deliveryImg.svg';
 import paymentImg from './assets/paymentImg.svg';

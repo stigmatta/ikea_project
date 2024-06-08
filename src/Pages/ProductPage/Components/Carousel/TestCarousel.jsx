@@ -1,18 +1,18 @@
-// Carousel.js
 
-import React from "react";
+
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./TestCarouselStyle.css";
-import c1 from '../carouselImgs/c1.jpg';
-import c2 from '../carouselImgs/c2.jpg';
-import c3 from '../carouselImgs/c3.jpg';
-import c4 from '../carouselImgs/c4.jpg';
-import c5 from '../carouselImgs/c5.jpg';
-import c6 from '../carouselImgs/c6.jpg';
-import c7 from '../carouselImgs/c7.jpg';
-import arrowNext from '../assets/arrowNext.svg'; 
+import c1 from '../../carouselImgs/c1.jpg';
+import c2 from '../../carouselImgs/c2.jpg';
+import c3 from '../../carouselImgs/c3.jpg';
+import c4 from '../../carouselImgs/c4.jpg';
+import c5 from '../../carouselImgs/c5.jpg';
+import c6 from '../../carouselImgs/c6.jpg';
+import c7 from '../../carouselImgs/c7.jpg';
+import arrowNext from '../../assets/arrowNext.svg'; 
 
 const images = [
   { src: c1, alt: 'Image 1', objectFit: 'contain' },
@@ -36,49 +36,30 @@ const SampleNextArrow = (props) => {
         width: '40px',
         height: '40px',
         backgroundSize: 'contain',
-        right: '-45px'
+        position: 'absolute',
+        right: '2%', 
+        transform: 'translateY(-50%)',
+        top: '50%',
       }}
       onClick={onClick}
     />
   );
 };
 
+
 const Carousel = () => {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
+    variableWidth: true,
+    adaptiveHeight: true,
     autoplay: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: null,
-    responsive: [
-      { 
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
+    
   };
 
   return (
@@ -87,6 +68,7 @@ const Carousel = () => {
         {images.map((image, index) => (
           <div key={index} className="image-container">
             <img src={image.src} alt={image.alt} className="carousel-image" />
+            <div class="text-overlay">НАЗВА НАБОРУ</div>
           </div>
         ))}
       </Slider>
