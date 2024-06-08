@@ -1,10 +1,10 @@
 
 import './ProductPageStyle.css';
-import Title from './Components/Title';
-import Carousel from './Components/Carousel';
-import Gallery from './Components/Gallery';
-import Feature from './Components/Feature';
-import Section from './Components/Section';
+import Title from './Components/Title/Title';
+import Gallery from './Components/Gallery/Gallery';
+import Feature from './Components/Feature/Feature';
+import Section from './Components/Section/Section';
+import TestCarousel from './Components/Carousel/TestCarousel';
 
 import deliveryImg from './assets/deliveryImg.svg';
 import paymentImg from './assets/paymentImg.svg';
@@ -56,7 +56,7 @@ export function ProductPage() {
   return (
     <div>
       <Title>ТОВАРИ</Title>
-      <Carousel />
+      <TestCarousel />
       <div id="moreCategories">дивитися більше категорій +</div>
       <Title style={{ marginTop: '70px' }}>ТОВАРИ С ОДНОГО НАБОРУ</Title>
       <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>

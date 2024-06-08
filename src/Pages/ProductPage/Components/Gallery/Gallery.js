@@ -1,5 +1,5 @@
 
-
+import'./GalleryStyle.css'
 const Gallery = ({ images }) => {
   return (
     <div className="gallery">

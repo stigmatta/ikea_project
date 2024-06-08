@@ -1,0 +1,32 @@
+#features
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    gap:10px;
+    
+}
+.features-frame
+{
+    width: 25%;
+    height: 100%;
+    background-color: #F1F1F1;
+    font-size:14px;
+    gap:0px;
+}
+.features-frame img
+{
+    margin-top: 33px;
+}
+.features-frame h1
+{
+    font-size:14px ;
+}
+.features-frame h2
+{
+    width: 70%;
+    font-size:14px ;
+    font-weight: 400;
+    margin-inline:auto ;
+}
