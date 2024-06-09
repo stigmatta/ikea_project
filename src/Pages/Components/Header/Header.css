@@ -1,3 +1,11 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-43.5%);
+    }
+}
 
 .hashtag {
     background-color: var(--add-grey);
@@ -9,12 +17,25 @@
     text-align: left;
     position: relative;
     white-space: nowrap;
-    width: 2486px;
+    width: fit-content; 
     height: 40px;
-    left: -204px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
+
+.hashtag > span {
+    animation: scroll 10s linear infinite; 
+    display: inline-block;
+    white-space: nowrap;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:var(--header-grey);
+}
+
+
 
 
 .header {

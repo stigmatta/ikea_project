@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from 'react-router-dom';
+import { useEffect } from "react";
 
 import '../../common_styles/FontAndColors.css'
 import '../Main_page/MainPage.css'
@@ -177,8 +178,13 @@ const addIdeaImages = [
 
 ]
 
-export default function MainPage()
+export default function MainPage({ setCurrentPage })
 {
+
+    useEffect(() => {
+        setCurrentPage("/");
+      }, [setCurrentPage]);
+
     return(
         <div className="MainPage">
             <div id = "MainPagePhotoPart">
@@ -241,10 +247,6 @@ export default function MainPage()
                 <Important src = {ImportantInfo1} title = "ВАЖЛИВА ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
 
             </div>
-
-            <Footer></Footer>
-
-
            
         </div>
     )

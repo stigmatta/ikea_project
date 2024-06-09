@@ -3,7 +3,8 @@ import './../../common_styles/LoginAndRegistration.css'
 import '../../common_styles/FontAndColors.css'
 
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import BlackButton from '../Components/BlackButton/BlackButton';
 
 import GoBack from '../../assets/GoBack.png'
@@ -11,8 +12,12 @@ import ShowPassword from '../LoginPage/assets/ShowPassword.png'
 import '../../common_styles/FontAndColors.css'
 
 
-function RegistrationPage(){
+function RegistrationPage({ setCurrentPage }) {
 
+    useEffect(() => {
+        setCurrentPage("registration");
+      }, [setCurrentPage]);
+    
     const [name,setName] = useState("");
     const [surname,setSurname] = useState('');
     const [date,setDate] = useState('');
@@ -93,7 +98,7 @@ function RegistrationPage(){
     return(
         <div className="Page">
             <div id = "ImagePart">
-                <img src = {GoBack} id = "go-back" alt = "go-back"></img>
+                <Link to="/"><img src = {GoBack} id = "go-back" alt = "go-back"></img></Link>
             </div>
 
             <div id = "FormPart">

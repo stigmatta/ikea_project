@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import BlackButton from '../Components/BlackButton/BlackButton'
 import TransparentButton from '../Components/TransparentButton/TransparentButton';
@@ -13,7 +13,12 @@ import ShowPassword from './assets/ShowPassword.png';
 import Info from './assets/Info.png'
 import GoBack from '../../assets/GoBack.png'
 
-function LoginPage() {
+function LoginPage({ setCurrentPage }) {
+
+  useEffect(() => {
+      setCurrentPage("login");
+    }, [setCurrentPage]);
+  
   const [showPassword, setShowPassword] = useState(false);
 
   const handleShowPassword = () => {
@@ -29,7 +34,7 @@ function LoginPage() {
   return (
     <div className="Page">
       <div className="ImagePart">
-        <a href = ""><img id = "go-back" src = {GoBack} alt = "go-back"></img></a>
+        <Link to = "/"><a href = ""><img id = "go-back" src = {GoBack} alt = "go-back"></img></a></Link>
         <h1 className="ImagePartText">заповніть вхід до облікового запису</h1>
       </div>
       <div id = "FormPart">

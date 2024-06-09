@@ -1,10 +1,13 @@
+.Page{
+    height: 1026px;
+}
+
 .ImagePart{
     background: url(./assets/MainImage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 590px;
-    height: 939px;
     top: -3px;
    
 }

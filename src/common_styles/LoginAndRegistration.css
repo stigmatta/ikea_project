@@ -73,3 +73,24 @@ button:hover{
 #save-label,input[type="checkbox" i]{
     display: inline;
 }
+
+.password-input
+{
+    width: 450px;
+}
+
+
+
+
+.password-input{
+    display: flex;
+    flex-direction: row;
+}
+
+#show-password{
+    position: relative;
+    top:30px;
+    right: 40px;
+    width: 22px;
+    height: 15px;
+}

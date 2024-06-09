@@ -1,5 +1,7 @@
 import {React,useState} from "react";
+import { Link } from "react-router-dom";
 import "./Header.css"
+
 import map from './assets/map.svg'
 import account from './assets/account.png'
 import basket from './assets/basket.svg'
@@ -24,8 +26,8 @@ export default function Header()
 
     return(
         <div className="header-comp">
-            <div id = "hashtag" className="hashtag">
-                #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно
+            <div id="hashtag" class="hashtag">
+                <span>#buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно</span>
             </div>
             <div className="header">
                 <div className="header-firstpart">
@@ -35,13 +37,13 @@ export default function Header()
                         <a>Меню</a>
                     </div>
                     <div><img src={logo} className="logo"></img></div>
-                    <a className="header-text">Товари</a>
+                    <Link className="header-text" to = "/products">Товари</Link>
                     <a className="header-text">Кімнати</a>
                     <a className="header-text">Дизайн</a>
                 </div>
                 <div className="header-secondpart">
                     <a className="text-and-img"><img src={map} className="symbol"></img>Київ</a>
-                    <a className="text-and-img"><img src={account} className="symbol"></img> Привіт! Увійдіть в систему</a>
+                    <Link to="/login"><a className="text-and-img"><img src={account} className="symbol"></img> Привіт! Увійдіть в систему</a></Link>
                     <a className="basket"><img src={basket} className="symbol"></img></a>
                     <a> <img src = {favorite} className="symbol"></img></a>
                 </div>
