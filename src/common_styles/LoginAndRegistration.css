@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-:root{
-    --black-color:  #1F1F1F;
-    --label-black:#000000;
-    --form-grey:#646464;
-}
 
 .Page{
     width:100%;
@@ -62,20 +55,7 @@ input {
     border: 1px solid var(--form-grey)
 }
 
-#continue-button{
-    margin-top: 20px;
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 428px;
-    border-radius: 30px;
-    padding: 10px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17.07px;
-    text-align: center;
-}
+
 
 button:hover{
     cursor: pointer;

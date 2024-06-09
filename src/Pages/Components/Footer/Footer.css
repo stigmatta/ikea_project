@@ -1,0 +1,83 @@
+.Footer{
+    background-color: var(--add-set-grey);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.sections,.logos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 220px;
+}
+
+.sections{
+    gap: 280px;
+}
+
+.logos{
+    gap:80px;
+}
+
+.logo-part1,.logo-part2{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-part1{
+    gap:20px
+}
+
+.logo-part2{
+    gap:40px;
+}
+
+.one-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.one-section span{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+.arrow-up{
+    width: 40px;
+    height: 40px;
+    rotate:270deg;
+}
+
+.last-row{
+    margin-left: 97px;
+    margin-top: 55px;
+    gap:580px;
+}
+
+.last-row,.last-row1,.last-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.last-row1{
+    gap:83px;
+}
+
+.last-row2{
+    gap:40px;
+}
+
+.last-row-sub{
+    margin-top: auto;
+}
+
+a{
+    scroll-behavior: smooth;
+}

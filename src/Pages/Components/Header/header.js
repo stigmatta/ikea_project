@@ -24,7 +24,7 @@ export default function Header()
 
     return(
         <div className="header-comp">
-            <div className="hashtag">
+            <div id = "hashtag" className="hashtag">
                 #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно #buynow #вседлядому #швидкотазручно
             </div>
             <div className="header">

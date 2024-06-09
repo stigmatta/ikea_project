@@ -1,0 +1,19 @@
+.Additional{
+    display: flex;
+    gap:20px;
+}
+
+.one-set{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--add-set-grey);
+    border-radius: 30px;
+    width: 161px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+    margin-bottom: 20px;
+}

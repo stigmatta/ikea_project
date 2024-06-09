@@ -1,4 +1,5 @@
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './ProductPageStyle.css';
 import Title from './Components/Title/Title';
 import Gallery from './Components/Gallery/Gallery';

@@ -110,24 +110,7 @@ input[type="checkbox" i]{
     color:black;
 }
 
-#create-acc-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color:black;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 17.07px;
-    text-align: center;
-    border: 2px solid black;
-    background-color: transparent;
-    width: 428px;
-    height: 50px;
-    border-radius: 30px;
-    margin-top: 30px;
-}
+
 
 
 

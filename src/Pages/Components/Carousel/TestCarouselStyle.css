@@ -1,0 +1,83 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+.slick-slide img {
+  width: 219px;
+  height: 286px;
+  object-fit: cover;
+}
+
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.slick-prev::before, .slick-next::before {
+  font-size: 40px;
+  color: black;
+}
+
+.slick-prev {
+  display: none !important;  
+}
+
+.slick-next:before {
+  content: ' ' !important;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden; 
+  height: 286px;
+  margin: 0 auto; 
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 161px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-bottom: 33px;
+}
+
+.carousel-container {
+  overflow: hidden;
+  display: block;
+  width: 1480px;
+}
+
+.slick-list {
+  padding: 0;
+  margin: 0;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start; 
+  gap: 20px; 
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center; 
+  margin: 0; 
+}
