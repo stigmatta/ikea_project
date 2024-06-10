@@ -1,0 +1,45 @@
+.CardShadow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    border-radius: 15px;
+    background-color: white;
+    padding-block: 30px;
+    box-shadow: 0px 4px 53px 0px #00000026;
+    transition: all .2s ease-out;
+}
+
+.CardShadow:hover{
+    transform: scale(1.1);
+}
+
+.specific-image{
+    margin-inline:auto;
+    margin-bottom: 15px;
+    width: 44px;
+    height: 44px;
+}
+
+.br-line{
+    width: 100px;
+    margin-inline:auto;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+    margin-block: 11px;
+}
+
+p{
+    width: 137px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+    margin-block: 0;
+    text-transform: lowercase;
+}

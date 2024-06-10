@@ -1,6 +1,82 @@
-#DesignBackPart{
-    width: 1921px;
-    height: 1026px;
-    top: 40px;
-    left: -1px;
+.DesignPage {
+    font-family: 'Montserrat', sans-serif;
 }
+
+#DesignBackPart {
+    position: relative;
+    width: 100%; 
+    height: fit-content; 
+    background: 
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.6) 36.46%, rgba(255, 255, 255, 0.3) 89.58%), 
+    url('./assets/Main.jpeg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#CreateDesignTitle{
+    margin-top: 57px;
+    width: 906px;
+    margin-inline: auto;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 117.02px;
+    text-align: center;
+}
+
+.shadow-card-div{
+    display: flex;
+    flex-direction: row;
+    gap:143px;
+    width: fit-content;
+    margin-top: 57px;
+    margin-inline:auto;
+}
+
+#under-cards-div{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    margin-inline:auto;
+    text-align: center;
+    padding-inline: 130px;
+    padding-bottom: 91px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 36.46%, #FFFFFF 89.58%);
+
+}
+
+#under-cards-div h2{
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+#under-cards-div p{
+    width: 560px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+
+#DesignMainPart{
+    padding-inline: 218px;
+    background-color: white;
+}
+
+.advice-cards-div{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+

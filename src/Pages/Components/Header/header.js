@@ -1,6 +1,8 @@
 import {React,useState} from "react";
 import { Link } from "react-router-dom";
 import "./Header.css"
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 import map from './assets/map.svg'
 import account from './assets/account.png'
@@ -39,7 +41,7 @@ export default function Header()
                     <div><img src={logo} className="logo"></img></div>
                     <Link className="header-text" to = "/products">Товари</Link>
                     <a className="header-text">Кімнати</a>
-                    <a className="header-text">Дизайн</a>
+                    <Link to ='/design' className="header-text">Дизайн</Link>
                 </div>
                 <div className="header-secondpart">
                     <a className="text-and-img"><img src={map} className="symbol"></img>Київ</a>

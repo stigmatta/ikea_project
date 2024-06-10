@@ -6,12 +6,14 @@ import MainPage from "./Pages/Main_page/MainPage";
 import RegistrationPage from "./Pages/RegistrationPage/RegistrationPage";
 import LoginPage from './Pages/LoginPage/LoginPage'
 import ProductPage from "./Pages/ProductPage/ProductPage";
+import DesignPage from "./Pages/DesignPage/DesignPage";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("/");
 
   return (
     <BrowserRouter>
+    {(currentPage !== "registration" && currentPage !== 'login' && currentPage !=='/' && currentPage != '/design')  && <Header />}
       <div>
         <Routes>
           <Route
@@ -34,6 +36,11 @@ function App() {
           <Route
           exact path = "/products"
           element = {<ProductPage setCurrentPage = {setCurrentPage}/>}
+          />
+
+          <Route
+          exact path = "/design"
+          element = {<DesignPage setCurrentPage = {setCurrentPage}/>}
           />
         </Routes>
       </div>

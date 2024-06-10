@@ -226,11 +226,11 @@ export default function MainPage({ setCurrentPage })
                 <Carousel images = {bestSetsImages} width = "1580px"></Carousel>
 
                 <Title title = "НОВИНКИ"></Title>
-                <Gallery images = {galleryNewImages}></Gallery>
+                <Gallery images = {galleryNewImages} dir = "row" width="1480px"></Gallery>
 
 
                 <Title title = "КАТАЛОГ" mbottom = "23.5px"></Title>
-                <Catalogue images = {catalogueImages} width = "159px" height = "155px"></Catalogue>
+                <Catalogue images = {catalogueImages} width = "161px" height = "191px" ></Catalogue>
 
 
                 <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop = "83.5px"></Title>
@@ -244,7 +244,7 @@ export default function MainPage({ setCurrentPage })
 
 
                 <Title title = "ВАЖЛИВА ІНФОРМАЦІЯ"></Title>
-                <Important src = {ImportantInfo1} title = "ВАЖЛИВА ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
+                <Important height="595px" src = {ImportantInfo1} title = "ВАЖЛИВА ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
 
             </div>
            

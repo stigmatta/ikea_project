@@ -1,8 +1,8 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './ProductPageStyle.css';
+import { useEffect } from "react";
 
-import Header from "../Components/Header/header";
 import Title from '../Components/Title/Title';
 import Gallery from '../Components/Gallery/Gallery';
 import Feature from '../Components/Feature/Feature';
@@ -43,7 +43,10 @@ import g13 from './galleryImgs/g13.jpg';
 import g14 from './galleryImgs/g14.jpg';
 import CaptionGallery from "../Components/CaptionGallery/CaptionGallery";
 
-export function ProductPage() {
+export function ProductPage({setCurrentPage}) {
+  useEffect(() => {
+    setCurrentPage("/products");
+  }, [setCurrentPage]);
 
   const carousel = [
     {src:carousel1},
@@ -86,7 +89,6 @@ export function ProductPage() {
 
   return (
     <div className="AllPage">
-      <Header></Header>
       <div className="Products">
 
         <Title title = "ТОВАРИ"></Title>

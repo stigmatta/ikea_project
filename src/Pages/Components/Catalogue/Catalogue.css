@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 103px;
+    width: 1500px;
 }
 
 .one-image {
