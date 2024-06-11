@@ -7,6 +7,7 @@ import RegistrationPage from "./Pages/RegistrationPage/RegistrationPage";
 import LoginPage from './Pages/LoginPage/LoginPage'
 import ProductPage from "./Pages/ProductPage/ProductPage";
 import DesignPage from "./Pages/DesignPage/DesignPage";
+import RoomsPage from "./Pages/RoomsPage/RoomsPage"
 
 import './App.css'
 
@@ -39,6 +40,10 @@ function App() {
           <Route
           exact path = "/products"
           element = {<ProductPage setCurrentPage = {setCurrentPage}/>}
+          />
+          <Route
+          exact path = "/rooms"
+          element = {<RoomsPage setCurrentPage = {setCurrentPage}/>}
           />
 
           <Route
