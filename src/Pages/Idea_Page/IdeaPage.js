@@ -6,6 +6,7 @@ import ImportantInfo from "../Components/ImportantInfo/ImportantInfo";
 import Carousel from '../Components/Carousel/TestCarousel';
 import IdeaCard from '../Components/IdeaCard/IdeaCard';
 import ImagesColumn from '../Components/ImagesColumn/ImagesColumn';
+import Ideas from '../Components/Ideas/Ideas';
 
 import image1 from './assets/image1.png'
 import CarouselImage1 from './assets/Carousel_Image1.png'
@@ -43,22 +44,18 @@ const CarouselImages = [
     {src :CarouselImage7, alt: 'CarouselImage7'},
 ]
 
-const ImageColumn1 = [
+const IdeaImages = [
     {src:IdeaImage1,width:"481px",height:"462px"},
     {src:IdeaImage4,width:"481px",height:"596px"},
     {src:IdeaImage7,width:"481px",height:"462px"},
     {src:IdeaImage10,width:"481px",height:"678px"},
-]
 
-const ImageColumn2 = [
     {src:IdeaImage2,width:"481px",height:"298px"},
     {src:IdeaImage5,width:"481px",height:"463px"},
     {src:IdeaImage8,width:"481px",height:"596px"},
     {src:IdeaImage11,width:"481px",height:"477px"},
     {src:IdeaImage13,width:"481px",height:"345px"},
-]
 
-const ImageColumn3 = [
     {src:IdeaImage3,width:"481px",height:"652px"},
     {src:IdeaImage6,width:"481px",height:"550px"},
     {src:IdeaImage9,width:"481px",height:"246px"},
@@ -68,40 +65,35 @@ const ImageColumn3 = [
 function IdeaPage({ setCurrentPage })
 {
     useEffect(() => {
-        setCurrentPage("/idea");
+        setCurrentPage("/ideas");
       }, [setCurrentPage]);
     return(
         <div className='Idea_Page'>
 
-            <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop='80px'></Title>
+            <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
             <div className="Idea_Text">Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus blandit consequat. A sed placerat sapien amet scelerisque ullamcorper amet. Elementum consequat risus nullam augue lorem turpis rutrum enim. Sagittis magnis adipiscing non pulvinar ut lacus et montes molestie. Purus vitae risus laoreet vel quis volutpat facilisi justo sed. Sit morbi cras vel non et ut. Ut cursus justo leo nulla ridiculus pharetra egestas libero sed. Pellentesque odio feugiat volutpat amet.</div>
 
-            <Title title = 'ІДЕЇ' mtop='80px'></Title>
+            <Title title = 'ІДЕЇ'></Title>
             <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info1'></ImportantInfo>
             <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info2'></ImportantInfo>
 
             
 
-            <Title title = 'ІДЕЇ' mtop = '80px'></Title>
+            <Title title = 'ІДЕЇ'></Title>
             <div className='Idea_Cards'>
-            <IdeaCard backgroundImage = {IdeaCardImage1} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
-            <a className='Card_Margin'></a>
-            <IdeaCard backgroundImage = {IdeaCardImage2} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
-            <a className='Card_Margin'></a>
-            <IdeaCard backgroundImage = {IdeaCardImage3} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
+                <IdeaCard backgroundImage = {IdeaCardImage1} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
+                <a className='Card_Margin'></a>
+                <IdeaCard backgroundImage = {IdeaCardImage2} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
+                <a className='Card_Margin'></a>
+                <IdeaCard backgroundImage = {IdeaCardImage3} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
             </div>
 
-            <Title title = 'ІДЕЇ' mtop = '80px'></Title>
-            <div className='ImagesRow'>
-            <ImagesColumn images = {ImageColumn1}></ImagesColumn>
-            <a className='Card_Margin'></a>
-            <ImagesColumn images = {ImageColumn2}></ImagesColumn>
-            <a className='Card_Margin'></a>
-            <ImagesColumn images = {ImageColumn3}></ImagesColumn>
-            </div>
+            <Title title = 'ІДЕЇ'></Title>
+            <Ideas images = {IdeaImages} height = "2260px"></Ideas>
+            
 
-            <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ' mtop = '80px'></Title>
-            <Carousel images = {CarouselImages} width = "1580px"></Carousel>
+            <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
+            <Carousel images = {CarouselImages} width = "1480px"></Carousel>
             
         </div>
     );

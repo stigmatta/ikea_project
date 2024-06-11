@@ -2,6 +2,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './RoomsPageStyle.css';
 
+import { useEffect } from "react";
+
 import Header from "../Components/Header/header";
 import Title from '../Components/Title/Title';
 import Gallery from '../Components/Gallery/Gallery';
@@ -75,7 +77,11 @@ import p1 from './productImgs/p1.jpg'
 
 import CaptionGallery from "../Components/CaptionGallery/CaptionGallery";
 
-export function RoomsPage() {
+export function RoomsPage({setCurrentPage}) {
+  useEffect(() => {
+    setCurrentPage("/products");
+  }, [setCurrentPage]);
+
 
   const carousel = [
     {src:carousel1},
@@ -134,17 +140,17 @@ export function RoomsPage() {
     {src:Catalogue18}
 ]
   const gallery1 = [
-    { src: g1, width: '559px', height: '275px' },
-    { src: g2, width: '901px', height: '275px' },
-    { src: g3, width: '905px', height: '676px' },
-    { src: g4, width: '555px', height: '676px' }
+    { src: g1, width: '851px', height: '477px' },
+    { src: g2, width: '851px', height: '474px' },
+    { src: g3, width: '609px', height: '275px' },
+    { src: g4, width: '609px', height: '675px' }
   ];
 
   const gallery2 = [
-    { src: g5, width: '559px', height: '275px' },
-    { src: g6, width: '901px', height: '275px' },
-    { src: g7, width: '905px', height: '676px' },
-    { src: g8, width: '555px', height: '676px' }
+    { src: g5, width: '991px', height: '477px' },
+    { src: g6, width: '469px', height: '477px' },
+    { src: g7, width: '466px', height: '474px' },
+    { src: g8, width: '994px', height: '474px' }
   ];
 
 
@@ -177,12 +183,11 @@ export function RoomsPage() {
                 <Catalogue images = {catalogueImages} width = "159px" height = "155px"></Catalogue>
 
 
-        <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop = "80.5px"></Title>
+        <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>
-        <Gallery images={gallery1} width = "1480px" />
+        <Gallery images={gallery1} dir = "column" height = "971px" />
 
-        <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop = "80.5px"></Title>
-        <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>
+        <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <Gallery images={gallery2} width = "1480px" />
 
 

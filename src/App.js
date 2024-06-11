@@ -10,6 +10,7 @@ import DesignPage from "./Pages/DesignPage/DesignPage";
 import RoomsPage from "./Pages/RoomsPage/RoomsPage"
 
 import './App.css'
+import IdeaPage from "./Pages/Idea_Page/IdeaPage";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("/");
@@ -36,6 +37,11 @@ function App() {
             path="/login"
             element={<LoginPage setCurrentPage={setCurrentPage} />}
           />
+
+          <Route
+          exact path = "/ideas"
+          element = {<IdeaPage setCurrentPage = {setCurrentPage}/>}
+          />  
 
           <Route
           exact path = "/products"

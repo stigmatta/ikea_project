@@ -3,6 +3,12 @@
     gap: 50px;
     width: 1500px;
   }
+
+
+.product-description,.product-name,.product-price{
+  width: 100% !important;
+  text-align: left;
+}
   
   .product-card {
     width: 354px;
@@ -20,12 +26,18 @@
 
   
   .product-name {
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
     margin: 0 0 8px;
   }
   
   .product-description {
     font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
     margin: 0 0 16px;
   }
   

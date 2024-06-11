@@ -65,6 +65,7 @@ export default function Header()
                     </div>
                     <div><img src={logo} className="logo"></img></div>
                     <Link className="header-text" to = "/products">Товари</Link>
+                    <Link className="header-text" to = "/ideas">Ідеї</Link>
                     <Link className="header-text" to = "/rooms">Кімнати</Link>
                     <Link to ='/design' className="header-text">Дизайн</Link>
                 </div>
