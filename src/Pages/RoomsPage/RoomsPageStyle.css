@@ -1,0 +1,28 @@
+.AllPage{
+    width: 1932px;
+    overflow: hidden;
+}
+
+.Products{
+    font-family: 'Montserrat';
+    padding-inline: 220px;
+    padding-bottom: 80px;
+}
+
+#moreCategories
+{
+    width: 461px;
+    height: 17px;
+    margin-top: 20px;
+    text-align: start;
+}
+.underTitle
+{
+    margin-top: 20px;
+    font-size:14px;
+    width:980px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+}
+

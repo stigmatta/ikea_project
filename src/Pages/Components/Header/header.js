@@ -40,7 +40,7 @@ export default function Header()
                     </div>
                     <div><img src={logo} className="logo"></img></div>
                     <Link className="header-text" to = "/products">Товари</Link>
-                    <a className="header-text">Кімнати</a>
+                    <Link className="header-text" to = "/rooms">Кімнати</Link>
                     <Link to ='/design' className="header-text">Дизайн</Link>
                 </div>
                 <div className="header-secondpart">
