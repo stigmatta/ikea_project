@@ -1,0 +1,30 @@
+.IdeaCard {
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.idea-image-part {
+    height: 640px;
+    width: 481px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.idea-title-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    background-color: var(--rect-card-grey);
+    border-radius: 0 0 15px 15px;
+}
+
+span{
+    margin: 0 auto;
+}

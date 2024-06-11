@@ -1,0 +1,41 @@
+.Idea_Page{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 220px;
+}
+
+.Idea_Text
+{
+    margin-top: 20px;
+    font-size:14px;
+    width:980px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+.Important_Info1{
+    margin-top: 20px;
+}
+
+.Important_Info2{
+    margin-top: 80px;
+}
+
+.Idea_Cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.Card_Margin{
+    margin-left: 20px;
+}
+
+.IdeaImagesBox
+{
+    width: 1483px;
+}
+
+.ImagesRow{
+    display: flex;
+    flex-direction: row;
+}

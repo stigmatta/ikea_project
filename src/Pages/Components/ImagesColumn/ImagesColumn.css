@@ -1,0 +1,30 @@
+.ImageColumn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 2258px;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  
+  .one-idea {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 40px;
+    height: 40px;
+    z-index: 1; 
+    border-radius: 15px;
+  }
+  
+  .one-idea img {
+    border-radius: 15px;
+  }
+  
