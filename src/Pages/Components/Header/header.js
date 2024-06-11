@@ -1,5 +1,7 @@
 import {React,useState} from "react";
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "./Header.css"
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -17,6 +19,12 @@ export default function Header()
 {
 
     const [showPlaceholder, setShowPlaceholder] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setIsMenuOpen(!isMenuOpen); 
+    };
+    
 
     const handleInputFocus = () => {
         setShowPlaceholder(false);
@@ -34,9 +42,26 @@ export default function Header()
             <div className="header">
                 <div className="header-firstpart">
                     <div className="menu">
-                        <a>☰</a>
-                        <br></br>
-                        <a>Меню</a>
+                    <DropdownButton
+                        id={`dropdown-button-drop`}
+                        drop="down"
+                        title={
+                            <div className="menu">
+                                <a>☰</a>
+                                <a>Меню</a>
+                            </div>
+                        }
+                    >
+                        <Dropdown.Item> <Link to ='/' className="one-dropdown-item">ГОЛОВНА</Link></Dropdown.Item>
+                        <Dropdown.Item> <Link to ='/products' className="one-dropdown-item">ТОВАРИ</Link></Dropdown.Item>
+                        <Dropdown.Item> <Link to ='/rooms' className="one-dropdown-item">КІМНАТИ</Link></Dropdown.Item>
+                        <Dropdown.Item> <Link to ='/ideas' className="one-dropdown-item">ІДЕЇ</Link></Dropdown.Item>
+                        <Dropdown.Item> <Link to ='/design' className="one-dropdown-item">ДИЗАЙН</Link></Dropdown.Item>
+
+                    </DropdownButton>
+
+
+
                     </div>
                     <div><img src={logo} className="logo"></img></div>
                     <Link className="header-text" to = "/products">Товари</Link>

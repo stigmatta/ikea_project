@@ -8,11 +8,14 @@ import LoginPage from './Pages/LoginPage/LoginPage'
 import ProductPage from "./Pages/ProductPage/ProductPage";
 import DesignPage from "./Pages/DesignPage/DesignPage";
 
+import './App.css'
+
 function App() {
   const [currentPage, setCurrentPage] = useState("/");
 
   return (
     <BrowserRouter>
+    <div className="App">
     {(currentPage !== "registration" && currentPage !== 'login' && currentPage !=='/' && currentPage != '/design')  && <Header />}
       <div>
         <Routes>
@@ -45,6 +48,7 @@ function App() {
         </Routes>
       </div>
       {(currentPage !== "registration" && currentPage !== 'login')  && <Footer />}
+    </div>
     </BrowserRouter>
   );
 } 

@@ -1,10 +1,11 @@
 .AllPage{
     width: 1932px;
     overflow: hidden;
+    font-family: 'Montserrat';
+
 }
 
 .Products{
-    font-family: 'Montserrat';
     padding-inline: 220px;
     padding-bottom: 80px;
 }
