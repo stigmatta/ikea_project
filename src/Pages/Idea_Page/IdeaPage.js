@@ -5,7 +5,6 @@ import Title from "../Components/Title/Title";
 import ImportantInfo from "../Components/ImportantInfo/ImportantInfo";
 import Carousel from '../Components/Carousel/TestCarousel';
 import IdeaCard from '../Components/IdeaCard/IdeaCard';
-import ImagesColumn from '../Components/ImagesColumn/ImagesColumn';
 import Ideas from '../Components/Ideas/Ideas';
 
 import image1 from './assets/image1.png'

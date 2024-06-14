@@ -11,6 +11,7 @@ import RoomsPage from "./Pages/RoomsPage/RoomsPage"
 
 import './App.css'
 import IdeaPage from "./Pages/Idea_Page/IdeaPage";
+import EmptyPage from "./Pages/EmptyPage/EmptyPage";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("/");
@@ -56,6 +57,17 @@ function App() {
           exact path = "/design"
           element = {<DesignPage setCurrentPage = {setCurrentPage}/>}
           />
+
+          <Route
+          exact path = "/stash"
+          element = {<EmptyPage title = "Ваша корзина пуста..." setCurrentPage = {setCurrentPage}></EmptyPage>}
+          />
+
+          <Route
+          exact path = "/wishlist"
+          element = {<EmptyPage title = "Ваш лист бажань пустий..." setCurrentPage = {setCurrentPage}></EmptyPage>}
+          />
+
         </Routes>
       </div>
       {(currentPage !== "registration" && currentPage !== 'login')  && <Footer />}

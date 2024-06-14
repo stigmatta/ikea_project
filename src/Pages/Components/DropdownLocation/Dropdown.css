@@ -1,0 +1,35 @@
+#dropdown-menu-loc{
+    width: 500px;
+    gap:0px;
+}
+
+#dropdown-button,#location-toggle{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#close-location-img{
+    width: 15px;
+    height: 15px;
+    align-self: flex-end;
+    position: relative;
+    right: 71.5px;
+}
+
+#dropdown-menu-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    margin-inline: auto;
+    margin-top: 83.5px;
+}
+#items{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-left: 59px;
+    margin-top: 40px;
+}
+

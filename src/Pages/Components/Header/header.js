@@ -14,6 +14,8 @@ import logo from './assets/Union.svg'
 import seacrh from './assets/search.svg'
 
 import "../../../common_styles/FontAndColors.css"
+import SearchBar from "../Searchbar/Searchbar";
+import MyDropdown from "../DropdownLocation/Dropdown";
 
 export default function Header()
 {
@@ -70,22 +72,15 @@ export default function Header()
                     <Link to ='/design' className="header-text">Дизайн</Link>
                 </div>
                 <div className="header-secondpart">
-                    <a className="text-and-img"><img src={map} className="symbol"></img>Київ</a>
+                    <MyDropdown></MyDropdown>
                     <Link to="/login"><a className="text-and-img"><img src={account} className="symbol"></img> Привіт! Увійдіть в систему</a></Link>
-                    <a className="basket"><img src={basket} className="symbol"></img></a>
-                    <a> <img src = {favorite} className="symbol"></img></a>
+                    <Link className="basket" to = "/stash"><img src={basket} className="symbol"></img></Link>
+                    <Link to = "/wishlist"><img src = {favorite} className="symbol"></img></Link>
                 </div>
                
-            </div>
+            </div>  
 
-            <div className="search-div">
-                <img className="search-img" src = {seacrh}></img>
-                <input type="text"  className="search-bar"
-                 onFocus={handleInputFocus}
-                 onBlur={handleInputBlur}
-                 placeholder={showPlaceholder ? 'Пошук' : ''}
-                 ></input>
-            </div>
+            <SearchBar width = "1271px" height = "50px"></SearchBar>
         </div>
     );
 }
