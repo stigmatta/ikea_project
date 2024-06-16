@@ -1,4 +1,30 @@
 @media (max-width:428px){
+    #dropdown-menu-loc{
+        width: 200px !important;
+    }
+    #dropdown-menu-title{
+        font-size: 13px !important;
+        margin-top: 20px !important;
+    }
+
+    #location-searchbar{
+        width: 100% !important;
+    }
+
+    #close-location-img{
+        right: 30.5px !important;
+    }
+    #items{
+        margin-left: 5px !important;
+        margin-top: 25px !important;
+        gap:0px !important
+    }
+
+    .dropdown-menu.show{
+        padding-block: 10px !important;
+    }
+   
+
 }
 #dropdown-menu-loc{
     width: 500px;
@@ -34,4 +60,5 @@
     margin-left: 59px;
     margin-top: 40px;
 }
+
 

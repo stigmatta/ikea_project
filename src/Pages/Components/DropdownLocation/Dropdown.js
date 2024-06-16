@@ -75,7 +75,7 @@ function MyDropdown() {
                     alt="Close symbol"
                 />
                 <h1 id = "dropdown-menu-title">ЗНАЙДІТЬ СВІЙ МАГАЗИН</h1>
-                <SearchBar width = "381px" height = "50px" right = "15px" bg = "#F5F5F5"></SearchBar>
+                <SearchBar id = "location-searchbar" width = "381px" height = "50px" right = "15px" bg = "#F5F5F5"></SearchBar>
 
                 <div id = "items">
                      <DropdownItem>

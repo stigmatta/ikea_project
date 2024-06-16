@@ -72,7 +72,7 @@ export default function Header() {
                             </div>
                        
                     </div>
-                    <SearchBar width="357px" height="50px" />
+                    <SearchBar id = "header-searchbar" width="357px" height="50px" />
 
                 </>
             );
