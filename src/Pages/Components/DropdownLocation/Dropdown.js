@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown, DropdownItem } from 'react-bootstrap';
-import { useState } from 'react';
+import { useState,useEffect} from 'react';
 
 import map from '../../Components/Header/assets/map.svg'
 import close from '../../../assets/cross_close.svg'
@@ -24,15 +24,47 @@ function MyDropdown() {
 
     const [selectedLocation, setSelectedLocation] = useState('Київ');
 
+    const [viewportWidth, setViewportWidth] = useState(window.innerWidth); 
+
+    const handleResize = () => {
+        setViewportWidth(document.documentElement.clientWidth); 
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize); 
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []); 
+
+
+    const renderLoc = () => {
+
+        if (viewportWidth <= 428) {
+            return (
+                <>
+                    <img src={map}  style = {{width:"16px",height:"20px"}} alt="Map symbol" />
+                </>
+            );
+        } else {
+            return (
+                <>
+                     <a className="text-and-img">
+                    <img src={map} className="symbol" alt="Map symbol" />
+                    {selectedLocation}
+                    </a>
+                </>
+            );
+        }
+    };
+
     
 
     return (
         <Dropdown id = "dropdown-button" drop="down-centered" show={showDropdown} onToggle={handleToggleDropdown}>
             <Dropdown.Toggle id="location-toggle">
-                <a className="text-and-img">
-                    <img src={map} className="symbol" alt="Map symbol" />
-                    {selectedLocation}
-                </a>
+               {renderLoc()}
             </Dropdown.Toggle>
 
             <Dropdown.Menu id = "dropdown-menu-loc">

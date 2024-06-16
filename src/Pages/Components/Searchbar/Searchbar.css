@@ -14,7 +14,7 @@
     width: 30px;
     height: 30px;
     left: 45px;
-    top:12px;
+    top:25px;
 }
 
 .search-img img{
@@ -28,6 +28,7 @@
     border-radius: 30px;
     background-color: white;
     padding-left: 50px;
+    border: none;
 }
 
 .search-bar::placeholder{

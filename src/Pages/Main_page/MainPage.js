@@ -189,13 +189,25 @@ export default function MainPage({ setCurrentPage })
         <div className="MainPage">
             <div id = "MainPagePhotoPart">
                 <Header></Header>
-                <h1 id = "all-for-home">ВСЕ ДЛЯ ДОМУ</h1>  
+                <h1 className = "all-for-home">ВСЕ ДЛЯ ДОМУ</h1>  
                 <div id = "main-page-220px">
                     <div id = "create-and-catalogue">
                         <Link className='browser-link' to="/registration">
                             <BlackButton id = "main-page-black-button" title = "СТВОРИТИ АКАУНТ ТА ПОЧАТИ!" type = "button" width = "377px" height = '60px'></BlackButton>
                         </Link>
-                        <TransparentButton type = "button" title = "КАТАЛОГ" width = "211px" height = "60px" img = {CatalogueButton} fontSize = "16px" marginTop = "20px"> </TransparentButton>
+                        <a href="#catalogue-for-link">
+                            <TransparentButton
+                                id = "catalogue-button"
+                                type="button"
+                                title="КАТАЛОГ"
+                                width="211px"
+                                height="60px"
+                                img={CatalogueButton}
+                                fontSize="16px"
+                                marginTop="20px"
+                            />
+                        </a>
+
                     </div>
 
                     <div id = "card-offers">
@@ -229,7 +241,7 @@ export default function MainPage({ setCurrentPage })
                 <Gallery images = {galleryNewImages} dir = "row" width="1480px"></Gallery>
 
 
-                <Title title = "КАТАЛОГ" mbottom = "23.5px"></Title>
+                <span id="catalogue-for-link"><Title title="КАТАЛОГ" mbottom="23.5px"></Title></span>
                 <Catalogue images = {catalogueImages} width = "161px" height = "191px" ></Catalogue>
 
 
