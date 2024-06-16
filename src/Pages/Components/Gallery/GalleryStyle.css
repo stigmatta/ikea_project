@@ -1,3 +1,15 @@
+@media (max-width:428px){
+    .gallery-one-image{
+        width: 371px !important;
+        height: 250px !important;
+    }
+
+    .gallery{
+        gap:8.2px !important;
+        flex-direction: column !important;
+    }
+}
+
 .gallery
 {
     display: flex;

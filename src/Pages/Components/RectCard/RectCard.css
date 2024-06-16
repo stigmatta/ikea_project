@@ -1,3 +1,24 @@
+@media (max-width:428px){
+    .image-part{
+        width: 373px !important;
+        height: 191px !important;
+    }
+
+    .title-part{
+        height: 38px !important;
+        font-size: 11.46px !important;
+        font-weight: 500 !important;
+        line-height: 13.97px !important;
+        text-align: center !important;
+    }
+
+    .title-part img {
+        width: 22px !important;
+        height: 22px !important;
+        right: 11px !important;
+    }
+}
+
 .RectCard {
     height: fit-content;
     border-radius: 15px;

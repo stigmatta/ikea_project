@@ -1,7 +1,4 @@
 @media (max-width: 428px) {
-    #MainPagePhotoPart{
-    background-position: -600px center !important ;
-    }
     .all-for-home {
         font-size: 43.17px !important;
         line-height: 52.63px !important;
@@ -21,6 +18,52 @@
         width: 373px !important;
         margin-bottom: 146px !important;
     }
+
+    #under-card-offers{
+        font-size: 17px !important;
+        line-height: 17.07px !important;
+        text-align: center !important;
+        width: 300px !important;
+        margin-inline:auto !important;
+        margin-top: 22px !important;
+        text-shadow: 1px 1px 2px pink !important;
+    }
+
+    #MainPageOtherPart{
+        padding-inline: 28px !important;
+    }
+
+    .rect-cards{
+        flex-direction: column !important;
+    }
+
+    #big-rect-card{
+        margin-top: 28.53px !important;
+        height: 91px !important;
+    }
+    
+    #big-rect-card-image{
+        width: 330px !important;
+        border-radius: 15px 0 0 15px;
+        background-image: url(./Assets/BigRectCard.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #big-rect-card-bar{
+        width: 43px !important;
+    }
+    
+    #big-rect-card-bar img{
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    .add-recs-display{
+        display: none !important;
+    }
+    
 }
 
 
@@ -88,6 +131,7 @@
 #MainPageOtherPart{
     padding-inline: 220px;
 }
+
 
 
 #big-rect-card{

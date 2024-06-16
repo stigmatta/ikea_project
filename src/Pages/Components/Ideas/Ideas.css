@@ -1,3 +1,20 @@
+@media (max-width:428px){
+  .one-idea-img{
+    width: 364px !important;
+    height: 338px !important;
+  }
+  .one-idea{
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+
+  .Ideas{
+    gap:15px !important;
+    height: fit-content !important;
+  }
+}
+
+
 .Ideas {
     display: flex;
     flex-direction: column;

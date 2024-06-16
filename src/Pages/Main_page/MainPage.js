@@ -221,7 +221,7 @@ export default function MainPage({ setCurrentPage })
 
             <div id = "MainPageOtherPart">
                 <Title title = "ЗНАЙДИ ТЕ, ЩО ШУКАЄШ!"></Title>
-                <div style = {{display:"flex",flexDirection:"row",gap:"21px"}}>
+                <div class = "rect-cards" style = {{display:"flex",flexDirection:"row",gap:"21px"}}>
                     <RectCard backgroundImage = {RectCard1} title = "НАША НОВА КОЛЕКЦІЯ"></RectCard>
                     <RectCard backgroundImage = {RectCard2} title = "НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ"></RectCard>
                     
@@ -249,10 +249,13 @@ export default function MainPage({ setCurrentPage })
                 <Ideas images = {ideasImages}></Ideas>
 
 
-                <Title title = "ДОДАТКОВІ РЕКОМЕНДАЦІЇ"></Title>
-                <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
-                <Ideas images = {addIdeaImages}></Ideas>
-                <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
+                <div className="add-recs-display">
+                    <Title title = "ДОДАТКОВІ РЕКОМЕНДАЦІЇ"></Title>
+                    <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
+                    <Ideas images = {addIdeaImages}></Ideas>
+                    <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
+                </div>
+                
 
 
                 <Title title = "ВАЖЛИВА ІНФОРМАЦІЯ"></Title>

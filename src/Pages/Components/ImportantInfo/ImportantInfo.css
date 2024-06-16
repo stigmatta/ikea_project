@@ -1,3 +1,34 @@
+@media (max-width:428px){
+    .Important{
+        flex-direction: column !important;
+    }
+
+    .important-img{
+        width: 361px !important;
+        height: 411px !important;
+    }
+
+    .text{
+        width: 361px !important;
+        padding-top: 74px !important;
+        text-align: center !important;
+    }
+    .text h1{
+        text-align: center !important;
+        width: 100% !important;
+        font-size: 17.6px !important;
+        font-weight: 600 !important;
+        line-height: 21.45px !important;
+    }
+    .text span{
+        font-size: 10.27px !important;
+        font-weight: 400 !important;
+        line-height: 12.52px !important;
+
+    }
+}
+
+
 .Important{
     display: flex;
     flex-direction: row;
@@ -5,6 +36,7 @@
 }
 .image{
     object-fit: cover;
+    width: fit-content;
 }
 
 .text {

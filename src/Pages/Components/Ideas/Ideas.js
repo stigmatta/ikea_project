@@ -8,7 +8,7 @@ export default function Ideas(props){
             {props.images.map((img) => (
                 <div className = "one-idea" style={{ width: img.width, height: img.height}}>
                     <img className='arrow' src = {Arrow}></img>
-                    <img src={img.src} style={{ width: "100%", height: "100%", objectFit: 'cover' }} />
+                    <img className='one-idea-img' src={img.src} style={{ width: "100%", height: "100%", objectFit: 'cover' }} />
                 </div>
             ))}
     </div>
