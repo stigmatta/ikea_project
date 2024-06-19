@@ -1,3 +1,22 @@
+@media (max-width: 428px) {
+    .Idea_Text{
+        width: 374px !important;
+        text-align: center !important;
+    }
+
+    .Idea_Cards{
+        flex-direction: column !important;
+    }
+
+    .Idea_Page{
+        margin-left: 35px !important;
+    }
+
+    .EmptySpace{
+        height: 20px;
+    }
+}
+
 .Idea_Page{
     font-family: 'Montserrat', sans-serif;
     margin-left: 220px;
