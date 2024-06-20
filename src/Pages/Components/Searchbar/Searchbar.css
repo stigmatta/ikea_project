@@ -4,7 +4,8 @@
     width: fit-content;
     height: fit-content;
     margin-inline: auto;
-    width: 1271px;
+    width: 65%;
+    max-width: 95%;
     height: 50px;
     position: relative;
 }

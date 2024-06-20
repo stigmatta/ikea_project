@@ -215,16 +215,15 @@ export default function MainPage({ setCurrentPage })
                         <CardOffer backgroundImage = {Offer2} title = "КОВДРА" small = "спальна кімната" price = "30$"></CardOffer>
                         <CardOffer backgroundImage = {Offer3} title = "ЛІЖКО" small = "спальна кімната" price = "414$"></CardOffer>
                     </div>
-                    <div id="under-card-offers">ЛОВИ МОМЕНТ <span style={{fontWeight:"bold"}}> | Знижки до <span style = {{fontWeight:"bolder",fontSize:"16px"}}>60%</span></span> на вибрані категорії товарів!</div>
+                    <div id="under-card-offers">ЛОВИ МОМЕНТ <span style={{fontWeight:"bold"}}> | Знижки до <span style = {{fontWeight:"bolder"}}>60%</span></span> на вибрані категорії товарів!</div>
                 </div>
             </div>
 
             <div id = "MainPageOtherPart">
                 <Title title = "ЗНАЙДИ ТЕ, ЩО ШУКАЄШ!"></Title>
-                <div class = "rect-cards" style = {{display:"flex",flexDirection:"row",gap:"21px"}}>
+                <div class = "rect-cards">
                     <RectCard backgroundImage = {RectCard1} title = "НАША НОВА КОЛЕКЦІЯ"></RectCard>
                     <RectCard backgroundImage = {RectCard2} title = "НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ"></RectCard>
-                    
                 </div>
                 <div id = "big-rect-card">
                     <div id = "big-rect-card-image"></div>

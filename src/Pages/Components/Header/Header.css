@@ -1,4 +1,4 @@
-@media (max-width:430px){
+@media (max-width:1250px){
     .logo{
         margin-left: 33px !important;
         margin-right: 58px !important;
@@ -21,10 +21,14 @@
         top:3px;
     }
 
-
-
+    .small-icons-header{
+        margin-left: 0 !important;
+    }
+    .header{
+        justify-content: space-between;
+        padding-inline: 5%;
+    }
 }
-
 
 
 @keyframes scroll {
@@ -125,6 +129,10 @@ a{
     text-decoration: none;
 }
 
+.header a{
+    font-size: clamp(12.5px,0.75vw,14px);
+}
+
 
 
 
@@ -133,7 +141,6 @@ a{
     align-items: center;
     width: 100%;
     height: 69px;
-    font-size: 14px;
     font-weight: 500;
     line-height: 17.07px;
     text-align: center;

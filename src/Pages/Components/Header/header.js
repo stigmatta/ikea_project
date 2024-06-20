@@ -33,7 +33,7 @@ export default function Header() {
 
     const renderHeader = () => {
 
-        if (viewportWidth <= 428) {
+        if (viewportWidth <= 1250) {
             return (
                 <>
                     <div className="header">
@@ -72,7 +72,7 @@ export default function Header() {
                             </div>
                        
                     </div>
-                    <SearchBar id = "header-searchbar" width="357px" height="50px" />
+                    <SearchBar width="357px" height="50px" />
 
                 </>
             );

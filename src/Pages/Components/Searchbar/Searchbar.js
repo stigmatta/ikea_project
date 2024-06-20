@@ -16,7 +16,7 @@ function SearchBar(props) {
     };
 
     return (
-        <div id = {props.id} className="search-div" style={{ width: props.width, height: props.height, right:props.right}}>
+        <div id = {props.id} className="search-div" style={{right:props.right}}>
         <img className="search-img" src={search} alt="Search icon"></img>
         <input
             style = {{backgroundColor: props.bg}}

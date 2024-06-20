@@ -1,23 +1,25 @@
 .CardOffer{
     display: flex;
     flex-direction: column;
-    width: 160px;
+    width: 30%;
+    max-width: 173px;
     height: fit-content;
+    position: relative;
 }
 
 .top-for-offer{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    position: relative;
-    top:30px;
-    left: 130px;
-    height: 30px;
-    font-size: 13px;
+    width: 20%;
+    position: absolute;
+    top:-7%;
+    left: 85%;
+    height: 15%;
+    font-size: 11px;
     color:white;
     border-radius: 60%;
-    padding: 10px;
+    padding: 15%;
     gap: 10px;
     font-weight: 500;
     line-height: 13.41px;

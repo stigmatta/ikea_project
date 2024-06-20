@@ -52,7 +52,7 @@ function MyDropdown() {
                 <>
                      <a className="text-and-img">
                     <img src={map} className="symbol" alt="Map symbol" />
-                    {selectedLocation}
+                    <span className='selected-location'>{selectedLocation}</span>
                     </a>
                 </>
             );
