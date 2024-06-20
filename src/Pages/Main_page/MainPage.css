@@ -8,6 +8,12 @@
     }
 }
 
+@media (max-width:600px){
+    #card-offers{
+        margin-top: 15% !important;
+    }
+}
+
 @media (max-width: 428px) {
 
     .add-recs-display{

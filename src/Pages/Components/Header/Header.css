@@ -82,8 +82,9 @@
     flex-direction: column;
     gap:30px;
     height: fit-content;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 1vw;
+    padding-bottom: 5.1vw;
+    padding-left: 1vw;
 }
 
 .one-dropdown-item{

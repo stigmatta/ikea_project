@@ -85,6 +85,6 @@
 }
 
 .go-to-shop-link a{
-    font-size: clamp(8.7px,.7vw,14px) !important;
+    font-size: clamp(8px,.7vw,14px) !important;
 }
 
