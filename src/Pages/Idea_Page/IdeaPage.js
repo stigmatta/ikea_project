@@ -74,9 +74,11 @@ function IdeaPage({ setCurrentPage })
 
             <Title title = 'ІДЕЇ'></Title>
             <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info1'></ImportantInfo>
+            <div className='EmptySpace'></div>
             <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info2'></ImportantInfo>
-
-            
+            <div className='EmptySpace'></div>
+            <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
+            <Carousel images = {CarouselImages} width = "1480px"></Carousel>
 
             <Title title = 'ІДЕЇ'></Title>
             <div className='Idea_Cards'>

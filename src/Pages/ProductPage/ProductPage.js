@@ -62,10 +62,10 @@ export function ProductPage({setCurrentPage}) {
 
   ]
   const gallery1 = [
-    { src: g1, width: '559px', height: '275px' },
-    { src: g2, width: '901px', height: '275px' },
-    { src: g3, width: '905px', height: '676px' },
-    { src: g4, width: '555px', height: '676px' }
+    { src: g1, width: '34%', height: '275px' },
+    { src: g2, width: '64%', height: '275px' },
+    { src: g3, width: '56%', height: '676px' },
+    { src: g4, width: '42%', height: '676px' }
   ];
 
   const gallery2 = [
@@ -81,10 +81,10 @@ export function ProductPage({setCurrentPage}) {
   ];
 
   const gallery4 = [
-    { src: g11, width: '851px', height: '723px' },
-    { src: g12, width: '849px', height: '228px' },
-    { src: g13, width: '609px', height: '275px' },
-    { src: g14, width: '609px', height: '675px' }
+    { src: g11, width: '34%', height: '275px' },
+    { src: g12, width: '64%', height: '275px' },
+    { src: g13, width: '56%', height: '676px' },
+    { src: g14, width: '42%', height: '676px' }
   ];
 
   return (
@@ -98,12 +98,12 @@ export function ProductPage({setCurrentPage}) {
 
         <Title title ="ТОВАРИ С ОДНОГО НАБОРУ" mtop = "80.5px"></Title>
         <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>
-        <Gallery images={gallery1} width = "1480px" />
+        <Gallery images={gallery1}/>
 
 
 
         <Title title = "НОВИНКИ"></Title>
-        <CaptionGallery images = {gallery2} width = "1500px"></CaptionGallery>
+        <CaptionGallery images = {gallery2}></CaptionGallery>
 
 
         <Title title = "ЗАТИШНI НАБОРИ"></Title>
@@ -112,7 +112,7 @@ export function ProductPage({setCurrentPage}) {
 
         <Title title = "ТОВАРИ С ОДНОГО НАБОРУ"></Title>
         <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Egestas viverra tempus molestie non. Ut pellentesque ultricies quis quis nec ultricies dolor eu sem. Duis tempus aliquam nisi volutpat vitae etiam turpis. At gravida risus eu pellentesque quis. Sed lobortis tincidunt in purus mauris eu consectetur non molestie. Scelerisque id amet quis eget ullamcorper donec non tempus. Malesuada amet nibh tellus nunc convallis elit ultrices. Felis viverra ac nunc felis. Nec ipsum feugiat faucibus eget mauris. Sed molestie facilisi ipsum ullamcorper aliquet. Nibh sed diam eu tincidunt dignissim porttitor vel blandit.</div>
-        <Gallery images={gallery4} dir = "column" height = "971px"/>
+        <Gallery images={gallery4}/>
 
 
         <div id="features">

@@ -1,8 +1,13 @@
-.SmallGallery
-{
+
+.SmallGallery {
     margin-top: 80px;
     display: flex;
-    flex-direction: row;
-    gap:20px;
-    width: 1500px;
-}
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  

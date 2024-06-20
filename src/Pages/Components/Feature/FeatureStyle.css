@@ -12,8 +12,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 369px;
-    height: 100%;
+    width: 30%;
+    height: 175px;
     background-color: #F1F1F1;
     font-size:14px;
     padding-bottom: 35px;
@@ -26,10 +26,32 @@
 }
 .features-frame h2
 {
-    width: 237px;
+    width: 80%;
     font-size:14px ;
     font-weight: 400;
     margin-inline:auto ;
     text-align: center;
     margin-top: 0;
 }
+@media (max-width:1000px){
+    .features-frame h2
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:700px){
+    .features-frame
+    {
+        width: 100%;
+        border-radius: 15px !important;
+    }
+    #features{
+        flex-direction:column;
+    }
+    .features-frame h2
+    {
+        font-size: 16px;
+    }
+
+}
+

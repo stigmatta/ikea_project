@@ -1,14 +1,4 @@
-@media (max-width:428px){
-    .gallery-one-image{
-        width: 371px !important;
-        height: 250px !important;
-    }
 
-    .gallery{
-        gap:8.2px !important;
-        flex-direction: column !important;
-    }
-}
 
 .gallery
 {
@@ -16,5 +6,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 36px;
-    gap:20px;
+    row-gap:20px;
+    column-gap: 2%;
+}
+
+@media (max-width:700px){
+    .gallery
+    {
+        flex-direction: column;
+        
+    }
+    .gallery-one-image
+    {
+        width: 100% !important;
+    }
 }

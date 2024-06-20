@@ -1,17 +1,22 @@
 @media (max-width:428px){
     .Important{
         flex-direction: column !important;
+        
     }
 
     .important-img{
         width: 361px !important;
         height: 411px !important;
+        border-radius: 15px 15px 0px 0px !important;
+
     }
 
     .text{
         width: 361px !important;
         padding-top: 74px !important;
         text-align: center !important;
+        border-radius: 0px 0px 15px 15px !important;
+        
     }
     .text h1{
         text-align: center !important;
