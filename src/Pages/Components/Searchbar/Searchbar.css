@@ -3,11 +3,8 @@
     flex-direction: row;
     height: fit-content;
     margin-inline: auto;
-<<<<<<< HEAD
     width: 65%;
     max-width: 95%;
-=======
->>>>>>> 4976f61793e745750dd79cb6a8a99205e50f4ccc
     height: 50px;
     position: relative;
 }

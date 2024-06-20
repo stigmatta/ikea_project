@@ -1,16 +1,15 @@
-@media (max-width:428px){
-  .one-idea-img{
-    width: 364px !important;
-    height: 338px !important;
-  }
-  .one-idea{
-    width: fit-content !important;
+@media (max-width:500px){
+  .Ideas{
     height: fit-content !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-inline: auto !important;
+    width: 95% !important;
   }
 
-  .Ideas{
-    gap:15px !important;
-    height: fit-content !important;
+  .one-idea{
+    width: 100% !important;
+    height: 30vh !important;
   }
 }
 
@@ -20,14 +19,12 @@
     flex-direction: column;
     position: relative;
     flex-wrap: wrap;
-    height: 1100px;
-    row-gap: 20px;
-    column-gap: 20px;
+    height: 56.4vw;
+    row-gap: 1vw;
+    column-gap: 1vw;
     align-content: flex-start;
 
   }
-  
-
 
   .one-idea {
     display: flex;
@@ -36,10 +33,10 @@
   
   .arrow {
     position: absolute;
-    top: 20px; 
-    left: 20px; 
-    width: 40px;
-    height: 40px;
+    top: 1vw; 
+    left: 1vw; 
+    width: 2.5vw;
+    height: 2vw;
     z-index: 1; 
     border-radius: 15px;
   }

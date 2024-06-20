@@ -9,7 +9,7 @@
     }
 
     .title-part{
-        height: 5vh !important;
+        height: 6vh !important;
     }
     
 }
@@ -49,10 +49,10 @@
 }
 
 .title-part img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 70%;
     position: relative;
-    right: 25px;
+    right: 5%;
     rotate: 180deg;
 }
 

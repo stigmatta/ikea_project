@@ -1,25 +1,32 @@
-@media (max-width: 428px){
-    .one-item b{
-        font-size: 14px !important;
-    }
-    .address{
-        font-size: 12px !important;
-    }
-    .go-to-shop-link{
-        gap:5px !important;
-        flex-wrap: wrap !important;
-    }
-
-    .go-to-shop-link a{
-        font-size: 10px !important;
+@media (max-width:1500px){
+    .link-and-button{
+        flex-direction: column !important;
+        width: 100% !important;
+        gap:8px !important
     }
 
     #city-button{
-        display: none !important;
+        margin-top: 0 !important;
+        width: 90% !important;
+        height: 3.5vh !important;
+        font-size: clamp(12px,.7vw,14px) !important;
+    }
+
+    .one-item{
+        width: 100% !important;
+    }
+
+    .dropdown-item{
+        padding:0 !important
+    }
+
+    .go-to-shop-link{
+        width: 80% !important;
+    }
+    .one-item{
+        border: none !important;
     }
 }
-
-
 .one-item{
     display: flex;
     flex-direction: column;
@@ -37,7 +44,7 @@
 }
 
 .address{
-    font-size: 14px;
+    font-size: clamp(10px,.6vw,14px);
     font-weight: 400;
     line-height: 17.07px;
     text-align: left;
@@ -50,9 +57,14 @@
     display:flex;
     flex-direction: row;
     gap:30px;
+    width: 80%;
+
 }
 
 #city-button{
+    width: 10vw;
+    height: 3vw;
+    padding: 5%;
     font-size: 12px;
     font-weight: 600;
     line-height: 14.63px;
@@ -62,12 +74,17 @@
 .go-to-shop-link{
     display: flex;
     flex-direction: column;
+    width: 60%;
     gap:17.07px;
-    font-size: 14px;
     font-weight: bold;
     color: black;
     line-height: 17.07px;
     text-align: left;
+    word-wrap: break-word;
     text-decoration: underline;
+}
+
+.go-to-shop-link a{
+    font-size: clamp(8.7px,.7vw,14px) !important;
 }
 

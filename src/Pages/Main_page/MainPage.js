@@ -131,11 +131,11 @@ const bestSetsImages = [
 ]
 
 const galleryNewImages = [
-    {src:GalleryNew1,width:"559px",height:"275px"},
-    {src:GalleryNew2,width:"901px",height:"275px"},
-    {src:GalleryNew3,width:"905px",height:"676px"},
-    {src:GalleryNew4,width:"555px",height:"676px"}
-]
+    {src: GalleryNew1, width: "28.66vw", height: "14.10vw"},
+    {src: GalleryNew2, width: "46.18vw", height: "14.10vw"},
+    {src: GalleryNew3, width: "46.41vw", height: "34.66vw"},
+    {src: GalleryNew4, width: "28.46vw", height: "34.66vw"}
+];
 
 const catalogueImages = [
     {src:Catalogue1},
@@ -159,24 +159,22 @@ const catalogueImages = [
 ]
 
 const ideasImages = [
-    {src:IdeaImage1,width:"480px",height:"595px"},
-    {src:IdeaImage2,width:"480px",height:"439px"},
-    {src:IdeaImage3,width:"480px",height:"439px"},
-    {src:IdeaImage4,width:"480px",height:"595px"},
-    {src:IdeaImage5,width:"480px",height:"595px"},
-    {src:IdeaImage6,width:"480px",height:"439px"}
-
-]
+    {src: IdeaImage1, width: "24.62vw", height: "30.53vw"},
+    {src: IdeaImage2, width: "24.62vw", height: "17.84vw"},
+    {src: IdeaImage3, width: "24.62vw", height: "17.84vw"},
+    {src: IdeaImage4, width: "24.62vw", height: "30.53vw"},
+    {src: IdeaImage5, width: "24.62vw", height: "30.53vw"},
+    {src: IdeaImage6, width: "24.62vw", height: "17.84vw"}
+];
 
 const addIdeaImages = [
-    {src:AddIdea1,width:"480px",height:"595px"},
-    {src:AddIdea2,width:"480px",height:"439px"},
-    {src:AddIdea3,width:"480px",height:"439px"},
-    {src:AddIdea4,width:"480px",height:"595px"},
-    {src:AddIdea5,width:"480px",height:"595px"},
-    {src:AddIdea6,width:"480px",height:"439px"},
-
-]
+    { src: AddIdea1, width: "24.62vw", height: "30.53vw" },
+    { src: AddIdea2, width: "24.62vw", height: "17.84vw" },
+    { src: AddIdea3, width: "24.62vw", height: "17.84vw" },
+    { src: AddIdea4, width: "24.62vw", height: "30.53vw" },
+    { src: AddIdea5, width: "24.62vw", height: "30.53vw" },
+    { src: AddIdea6, width: "24.62vw", height: "17.84vw" }
+];
 
 export default function MainPage({ setCurrentPage })
 {
@@ -233,18 +231,18 @@ export default function MainPage({ setCurrentPage })
                 <Title title = "РЕКОМЕНДАЦІЇ"></Title>
                 <Carousel images = {recomCarouselImages} width = "1580px"></Carousel>
 
-                <Title title = "НАЙКРАЩІ НАБОРИ" mtop = "50.5px"></Title>
+                <Title title = "НАЙКРАЩІ НАБОРИ" mtop = "2.58vw"></Title>
                 <Carousel images = {bestSetsImages} width = "1580px"></Carousel>
 
                 <Title title = "НОВИНКИ"></Title>
-                <Gallery images = {galleryNewImages} dir = "row" width="1480px"></Gallery>
+                <Gallery images = {galleryNewImages} dir = "row" width="100%"></Gallery>
 
 
-                <span id="catalogue-for-link"><Title title="КАТАЛОГ" mbottom="23.5px"></Title></span>
+                <span id="catalogue-for-link"><Title title="КАТАЛОГ" mbottom="1.2vw"></Title></span>
                 <Catalogue images = {catalogueImages} width = "161px" height = "191px" ></Catalogue>
 
 
-                <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop = "83.5px"></Title>
+                <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ" mtop = "4.28vw"></Title>
                 <Ideas images = {ideasImages}></Ideas>
 
 
@@ -258,7 +256,7 @@ export default function MainPage({ setCurrentPage })
 
 
                 <Title title = "ВАЖЛИВА ІНФОРМАЦІЯ"></Title>
-                <Important height="595px" src = {ImportantInfo1} title = "ВАЖЛИВА ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
+                <Important height="30.5vw" src = {ImportantInfo1} title = "ВАЖЛИВА ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
 
             </div>
            

@@ -1,6 +1,6 @@
 .Additional{
     display: flex;
-    gap:20px;
+    gap:1vw;
 }
 
 .one-set{
@@ -9,11 +9,11 @@
     justify-content: center;
     background-color: var(--add-set-grey);
     border-radius: 30px;
-    width: 161px;
-    height: 40px;
+    width: 8.25vw;
+    height: 2.5vw;
     font-size: 14px;
     font-weight: 600;
     line-height: 17.07px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
 }

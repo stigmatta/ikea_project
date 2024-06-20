@@ -22,7 +22,7 @@ export default function ItemLocation(props){
                     <a>Перейти на сторінку магазину</a>
                     <a>Час відкриття: 9:00</a>
                 </div>
-                <BlackButton width = "110px" height = "35px" type = "button" title = "ОБРАТИ" id = "city-button" ></BlackButton>
+                <BlackButton  type = "button" title = "ОБРАТИ" id = "city-button" ></BlackButton>
             </div>
 
             <br></br>
