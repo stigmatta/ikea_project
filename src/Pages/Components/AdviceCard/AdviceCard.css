@@ -1,9 +1,16 @@
+@media(max-width:1000px){
+    .AdviceCard{
+        width: 80% !important;
+        height: 70vh !important;
+        margin: 0 auto;
+    }
+}
+
 .AdviceCard{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 481px;
-    height: 720px;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
@@ -11,7 +18,7 @@
 
 .AdviceCard img{
     width: 100%;
-    height: 487px;
+    height: 80%;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
@@ -22,12 +29,19 @@
     align-items: center;
     background-color: var(--add-set-grey);
     padding-top: 41px;
-    width: 481px;
-    height: 233px;
+    width: 100%;
     border-radius:  0 0 15px 15px;
+    padding-inline: 2.92vw;
+    padding-bottom: 80px;
+
+}
+
+.text-part h2{
+    font-size: clamp(18.38px,2vw,24px);
 }
 
 .text-part p{
-    width: 367px;
+    width: 100%;
+    font-size: clamp(10.72px,.7vw,14px);
     text-transform: lowercase;
 }

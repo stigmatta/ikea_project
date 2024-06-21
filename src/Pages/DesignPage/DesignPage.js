@@ -83,7 +83,7 @@ export default function DesignPage({ setCurrentPage })
                 <div className='advice-cards-div'>
                   <AdviceCard image = {AdviceCard1} title = "ЯК ОБРАТИ СТИЛЬ" text = "Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus consequat egestas lectus blandit consequat. A sed  blandit consequat. A sed placerat sapien amet..."></AdviceCard>
                   <AdviceCard image = {AdviceCard2} title = "НАШІ ПОРАДИ" text = "Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus consequat egestas lectus  placerat sapien amet..."></AdviceCard>
-                  <AdviceCard image = {AdviceCard3} title = "ЯК СПЛАНУВАТИ" text = "Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus consequat egestas lectus blandit consequat. Habitasse Lorem ipsum dolor sit amet consectetur. Habitasse  placerat sapien amet..."></AdviceCard>
+                  <AdviceCard image = {AdviceCard3} title = "ЯК СПЛАНУВАТИ" text = "Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus consequat egestas lectus blandit consequat. Habitasse  placerat sapien amet..."></AdviceCard>
                 </div>
 
                 <ImportantInfo src = {Important1} height = "289px" title ="ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus Lorem ipsum dolor sit amet consectetur= Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra." ></ImportantInfo>
