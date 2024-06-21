@@ -93,7 +93,7 @@ export function ProductPage({setCurrentPage}) {
 
         <Title title = "ТОВАРИ"></Title>
         <Carousel images = {carousel}></Carousel>
-        <div id="moreCategories">дивитися більше категорій +</div>
+        <div id="moreCategories-products">дивитися більше категорій +</div>
 
 
         <Title title ="ТОВАРИ С ОДНОГО НАБОРУ" mtop = "80.5px"></Title>

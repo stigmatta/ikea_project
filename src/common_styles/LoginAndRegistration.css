@@ -9,7 +9,7 @@
 
 #go-back{
     margin-top: 43px;
-    margin-left: 40px;
+    margin-left: 2vw;
 }
 
 input::-ms-reveal,
@@ -25,7 +25,7 @@ small{
     font-weight: 400;
     line-height: 14.63px;
     text-align: left;
-    width: 423px;
+    width: 21.69vw;
     height: 42px;
 }
 
@@ -34,7 +34,7 @@ small{
 form{
     display: flex;
     flex-direction: column;
-    width: 428px;
+    width: 21.94vw;
 }
 
 label{
@@ -47,8 +47,8 @@ label{
 
 input {
     display: block;
-    width: 426px;
-    padding-left: 10px;
+    width: 21.84vw;
+    padding-left: .5vw;
     height: 50px;   
     margin-top: 11.5px;
     border-radius: 5px;
@@ -76,7 +76,7 @@ button:hover{
 
 .password-input
 {
-    width: 450px;
+    width: 23vw;
 }
 
 

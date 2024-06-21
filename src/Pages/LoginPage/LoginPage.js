@@ -37,8 +37,8 @@ function LoginPage({ setCurrentPage }) {
         <Link to = "/"><a href = ""><img id = "go-back" src = {GoBack} alt = "go-back"></img></a></Link>
         <h1 className="ImagePartText">заповніть вхід до облікового запису</h1>
       </div>
-      <div id = "FormPart">
-        <form>
+      <div className = "LoginFormPart">
+        <form className='login-form'>
           <label className='login-label'>
             Електронна пошта або мобільний номер
             <input type="email" />

@@ -97,12 +97,12 @@ function RegistrationPage({ setCurrentPage }) {
 
     return(
         <div className="Page">
-            <div id = "ImagePart">
+            <div className = "RegImagePart">
                 <Link to="/"><img src = {GoBack} id = "go-back" alt = "go-back"></img></Link>
             </div>
 
             <div id = "FormPart">
-                <form>
+                <form className='reg-form'>
                     <label className='reg-label'>Ім'я
                         <input type = "text" onChange={handleNameChange} required></input>
                     </label>
@@ -153,7 +153,7 @@ function RegistrationPage({ setCurrentPage }) {
                         <label className='grey-label' id = "registration-label" for="save-data">Я, ознайомлений з Політикою конфіденційності з обробки та захисту персональних даних </label>
                     </div>
 
-                    <BlackButton title = "ПРОДОВЖИТИ" type = "submit" width = "428px" height = '50px'></BlackButton>
+                    <BlackButton id = "reg-black-button" title = "ПРОДОВЖИТИ" type = "submit" width = "21.94vw" height = '50px'></BlackButton>
                 </form>
             </div>
         </div>

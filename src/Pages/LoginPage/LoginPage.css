@@ -1,49 +1,99 @@
-.Page{
-    height: 1026px;
+@media (max-width:960px){
+    .Page{
+        flex-direction: column !important;
+    }
+
+    .ImagePart{
+        width: 100% !important;
+    }
+
+    .ImagePartText{
+        margin-top: 10px !important;
+        position: relative;
+        bottom: 5vh !important;
+        width: 80% !important;
+    }
+
+    .LoginFormPart{
+        width: 90% !important;
+        margin-top: 1.5vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto !important;
+        padding-bottom: 117px;
+    }
+
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .login-label{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    input,.password-input,.login-label small, .login-label a,#save-data-div,#create-acc{
+        width: 100% !important;
+    }
+
+    #save-data-div{
+        display: flex;
+    }
+
+    #info-button{
+        margin-left: auto !important;
+    }
+
+
 }
+
+
+
 
 .ImagePart{
     background: url(./assets/MainImage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 590px;
+    width: 30%;
     top: -3px;
-   
 }
 
-#FormPart{
+.LoginFormPart{
     margin-top: 173px;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 156px;
+    margin-left: 8vw;
 }
 
 
 .ImagePartText{
     text-transform: uppercase;
-    width: 478px;
+    width: 24.5vw;
     color : var(--black-color);
-    height: 78px;
     font-size: 32px;
     font-weight: 600;
     line-height: 39.01px;
     text-align: center;
     margin-top: 163px;
-    margin-left: 51px;
+    margin-inline: auto;
     padding: 10px 10px 10px 0px;
-    gap: 10px;
-    opacity: 0px;
 }
 
 input[type="email" i]{
-    width: 414px !important;
+    width: 21.85vw ;
 }
 
 .password-input
 {
-    width: 450px;
+    width: 23vw;
 }
-
 
 
 .login-label{
@@ -59,10 +109,8 @@ input[type="email" i]{
 
 #show-password{
     position: relative;
-    top:30px;
-    right: 40px;
-    width: 22px;
-    height: 15px;
+    width: 25px;
+    height: 20px;
 }
 
 #forgot-password{
@@ -74,8 +122,8 @@ input[type="email" i]{
 }
 
 input[type="checkbox" i]{
-    width: 24px;
-    height: 24px;
+    width: 2.2vw;
+    height: 2.2vh;
     padding: 0;
     margin-top: 0;
 }
@@ -89,21 +137,21 @@ input[type="checkbox" i]{
 }
 
 #save-label{
-    width: 220px !important;
+    width: 11.28vw !important;
 }
 
 
 #info-button{
     width: 20px;
     height: 20px;
-    margin-left: 100px;
+    margin-left: 5.1vw;
 }
 
 
 
 #create-acc{
     margin-top:87.5px;
-    width: 412px;
+    width: 21.1vw;
     height: 15px;
     font-family: Montserrat;
     font-size: 14px;

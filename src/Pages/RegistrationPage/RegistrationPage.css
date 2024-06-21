@@ -1,7 +1,31 @@
+@media (max-width:1650px) {
+    .reg-label small{
+        margin-top: 4vh;
+    }
+}
 
-#ImagePart{
-    width: 590px;
-    height: 1400px;
+
+@media (max-width:960px) {
+    .RegImagePart {
+        width: 100% !important;
+        height: 40vh !important;
+    }
+
+    #FormPart{
+        margin-inline: auto !important;
+        width: 90% !important;
+        display: flex;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .reg-label,.reg-form,.reg-label small,#reg-black-button{
+        width: 100% !important;
+    }
+}
+
+.RegImagePart {
+    width: 30%;
     margin-top: -3px;
     background: url(./assets/MainImage.jpeg);
     background-size: cover;
@@ -9,29 +33,26 @@
     background-position: center;
 }
 
-.reg-label{
+.reg-label {
     margin-bottom: 30px;
 }
 
-
-#FormPart{
-    margin-left: 156px;
+#FormPart {
+    margin-left: 8vw;
     margin-top: 89px !important;
     padding-bottom: 100px;
 }
 
-
-#save-data-div{
+#save-data-div {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-#registration-label{
+#registration-label {
     width: 100% !important;
 }
 
-
-input[type="checkbox" i]{
+input[type="checkbox" i] {
     width: 42.2px !important;
     height: 24px !important;
 }

@@ -1,11 +1,11 @@
 .EmptyPage{
-    padding-left: 220px;
+    padding-left: 11.2vw;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 .empty-img{
-    width: 100px;
+    width: 30%;
     height: 100px;
     margin-inline: auto;
     margin-top: 70px;
