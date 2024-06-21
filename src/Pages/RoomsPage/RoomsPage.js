@@ -139,26 +139,29 @@ export function RoomsPage({setCurrentPage}) {
     {src:Catalogue17},
     {src:Catalogue18}
 ]
-  const gallery1 = [
-    { src: g1, width: '851px', height: '477px' },
-    { src: g2, width: '851px', height: '474px' },
-    { src: g3, width: '609px', height: '275px' },
-    { src: g4, width: '609px', height: '675px' }
-  ];
-
-  const gallery2 = [
-    { src: g5, width: '991px', height: '477px' },
-    { src: g6, width: '469px', height: '477px' },
-    { src: g7, width: '466px', height: '474px' },
-    { src: g8, width: '994px', height: '474px' }
-  ];
+const gallery1 = [
+  { src: g1, width: '43.59vw', height: '24.46vw' },
+  { src: g2, width: '43.59vw', height: '24.30vw' },
+  { src: g3, width: '31.23vw', height: '14.10vw' },
+  { src: g4, width: '31.23vw', height: '34.62vw' }
+];
 
 
-  const gallery3 = [
-    { src: g9, width: '100%', height: '250px',showCaption: 0 },
-    { src: g10, width: '100%', height: '250px',showCaption: 0},
-    { src: g11, width: '100%', height: '250px',showCaption: 0  },
-  ];
+const gallery2 = [
+  { src: g5, width: '50.82vw', height: '24.46vw' },
+  { src: g6, width: '24.05vw', height: '24.46vw' },
+  { src: g7, width: '23.90vw', height: '24.30vw' },
+  { src: g8, width: '51.18vw', height: '24.30vw' }
+];
+
+
+
+const gallery3 = [
+  { src: g9, width: '100%', height: '28.37vh', showCaption: 0 },
+  { src: g10, width: '100%', height: '28.37vh', showCaption: 0 },
+  { src: g11, width: '100%', height: '28.37vh', showCaption: 0 }
+];
+
 
   const products = [
     { image: p1, name: 'НАЗВА ТОВАРУ', description: 'Опис товару опис товару опис товару', price: "001" },
@@ -169,18 +172,18 @@ export function RoomsPage({setCurrentPage}) {
 
   return (
     <div className="AllPage">
-      <div className="Products">
+      <div className="Rooms">
 
         <Title title = "КIМНАТИ"></Title>
         <Carousel images = {carousel}></Carousel>
-        <SmallGallery width="100%" images={smallGallery1} />
+        <SmallGallery images={smallGallery1} />
         <Title title = "ТОВАРИ"></Title>
         <ProductGallery products={products} />
         <Title title = "ІНФОРМАЦІЯ"></Title>
         <Important src = {i1} title = "ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
-        <SmallGallery width="100%" images={smallGallery2} />
-        <Title title = "КАТАЛОГ" mbottom = "23.5px"></Title>
-                <Catalogue images = {catalogueImages} width = "159px" height = "155px"></Catalogue>
+        <SmallGallery  images={smallGallery2} />
+        <Title title = "КАТАЛОГ" mbottom = "1.2vw"></Title>
+                <Catalogue images = {catalogueImages} width = "8.15vw" height = "155px"></Catalogue>
 
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
@@ -188,7 +191,7 @@ export function RoomsPage({setCurrentPage}) {
         <Gallery images={gallery1} dir = "column" height = "971px" />
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
-        <Gallery images={gallery2} width = "1480px" />
+        <Gallery images={gallery2} width = "100%" />
 
 
 
@@ -200,7 +203,7 @@ export function RoomsPage({setCurrentPage}) {
 
 
 
-        <Section title="ДОДАТКОВО" style={{ marginTop: '80px' }}>
+        <Section title="ДОДАТКОВО" style={{ marginTop: '4.1vw' }}>
             Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus blandit consequat. A sed placerat sapien amet scelerisque ullamcorper amet. Elementum consequat risus nullam augue lorem turpis rutrum enim. Sagittis magnis adipiscing non pulvinar ut lacus et montes molestie. Purus vitae risus laoreet vel quis volutpat facilisi justo sed. Sit morbi cras vel non et ut. Ut cursus justo leo nulla ridiculus pharetra egestas libero sed. Pellentesque odio feugiat volutpat amet 
             sed id scelerisque. Ipsum cras vivamus sit ultrices pulvinar. Aliquam donec leo aliquam ornare in enim proin proin eget. Pellentesque tempus eget viverra volutpat nunc hac. Elementum ut ridiculus et eget eu viverra et. Lorem lorem habitant pulvinar sapien cras. Phasellus leo amet purus luctus cursus morbi turpis nibh non. Rhoncus etiam feugiat dolor ac cursus in
             ac semper. Et urna magna aliquam in sagittis. Eget ultrices ipsum rutrum lacus eu scelerisque sit. Et nibh eget morbi felis fringilla quis habitant. Ipsum aenean integer amet morbi tincidunt. Posuere cras commodo lobortis sit risus dictum nibh. Commodo risus dolor turpis suspendisse convallis.        </Section>

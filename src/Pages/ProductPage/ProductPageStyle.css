@@ -1,3 +1,25 @@
+@media(max-width:1200px){
+    .underTitle{
+        width: 90% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    .underTitle{
+        text-align: center;
+        margin-inline: auto !important;
+    }
+}
+
+@media(max-width:650px){
+    .underTitle{
+        text-align: center;
+    }
+}
+
+
+
 .AllPage{
     width: 100% !important;
     font-family: 'Montserrat';
@@ -12,17 +34,17 @@
 
 #moreCategories
 {
-    width: 461px;
-    height: 17px;
-    margin-top: 20px;
+    height: 1vw;
+    margin-top: 1.1vw;
     text-align: start;
 }
 .underTitle
 {
-    margin-top: 20px;
+    margin-top: 1vw;
     font-size:14px;
     font-weight: 400;
     line-height: 17.07px;
+    width: 45%;
     text-align: left;
 }
 

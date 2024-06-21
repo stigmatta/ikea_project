@@ -1,59 +1,21 @@
-@media (max-width: 428px) {
-    .Idea_Text{
-        width: 374px !important;
-        text-align: center !important;
-    }
-
-    .Idea_Cards{
+@media (max-width:1350px){
+    .IdeaCards{
         flex-direction: column !important;
-    }
-
-    .Idea_Page{
-        margin-left: 35px !important;
-    }
-
-    .EmptySpace{
-        height: 20px;
     }
 }
 
 .Idea_Page{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 220px;
-    padding-bottom: 80px;
+    padding-inline:8%;
 }
 
-.Idea_Text
-{
-    margin-top: 20px;
-    font-size:14px;
-    width:980px;
-    font-weight: 400;
-    line-height: 17.07px;
-    text-align: left;
-}
 
-.Important_Info1{
-    margin-top: 20px;
-}
-
-.Important_Info2{
-    margin-top: 80px;
-}
-
-.Idea_Cards{
+.IdeaCards{
     display: flex;
     flex-direction: row;
+    gap:1.1vw;
 }
 
-.Card_Margin{
-    margin-left: 20px;
-}
-
-.IdeaImagesBox
-{
-    width: 1483px;
-}
 
 .ImagesRow{
     display: flex;

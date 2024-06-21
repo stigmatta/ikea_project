@@ -1,22 +1,24 @@
-@media (max-width:428px){
+@media (max-width:1200px){
     .title{
-        font-size: 16.01px !important;
-        font-weight: 600 !important;
-        line-height: 19.52px !important;
-        text-align: center !important;
-        margin-top: 86.68px !important;
-        margin-bottom: 26.68px !important;
+        margin-top: 10vw !important;
+        margin-bottom: 3vw !important;
     }
-    
+}
+
+@media (max-width:850px){
+    .title{
+        margin-inline: auto;
+        width: fit-content !important;
+    }
 }
 
 .title
 {
     font-family: "Montserrat";
     font-weight: 600;
-    margin-top: 90.5px;
-    margin-bottom: 30.5px;
-    font-size: 24px;
+    margin-top: 4.6vw;
+    margin-bottom: 1.56vw;
+    font-size: clamp(16px,1.2vw,24px);
     text-align: start;
     font-weight: 600;
     line-height: 29.26px;

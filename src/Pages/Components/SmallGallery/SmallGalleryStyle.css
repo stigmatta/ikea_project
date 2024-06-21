@@ -1,11 +1,31 @@
+@media (max-width:650px){
+  .small-gallery-title{
+    text-align: center;
+  }
+}
+
 
 .SmallGallery {
     margin-top: 80px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    row-gap: 1.1vw;
+    column-gap:1vw;
     justify-content: center;
     align-items: center;
+  }
+
+  .small-gallery-image{
+    width:10.1vw;
+    min-width:176px;
+    height: 93px;
+    object-fit: cover;
+  }
+
+  .small-gallery-title{
+    font-size: 14px;
+    margin-top: 5px;
   }
   
 

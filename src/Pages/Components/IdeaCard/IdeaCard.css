@@ -1,25 +1,23 @@
-@media (max-width:428px){
-    .idea-image-part{
-        width: 371px !important;
+@media (max-width:1350px){
+    .IdeaCard{
+        width: 90% !important;
+        margin: 0 auto;
     }
 
     .idea-title-part{
-        width: 371px !important;
-    }
-    
-    .IdeaCard{
-        margin-top: 20px !important;
+        height: 6vh !important;
     }
 }
 
 .IdeaCard {
     height: fit-content;
+    width: 30%;
     border-radius: 15px;
 }
 
 .idea-image-part {
-    height: 640px;
-    width: 481px;
+    height: 50vh;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -30,8 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    font-size: 24px;
+    height: 4.1vw;
+    font-size: clamp(19.11px,1.8vw,24px);
     font-weight: 500;
     line-height: 29.26px;
     background-color: var(--rect-card-grey);

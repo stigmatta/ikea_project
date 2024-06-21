@@ -70,18 +70,16 @@ function IdeaPage({ setCurrentPage })
         <div className='Idea_Page'>
 
             <Title title = "ІДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
-            <div className="Idea_Text">Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus blandit consequat. A sed placerat sapien amet scelerisque ullamcorper amet. Elementum consequat risus nullam augue lorem turpis rutrum enim. Sagittis magnis adipiscing non pulvinar ut lacus et montes molestie. Purus vitae risus laoreet vel quis volutpat facilisi justo sed. Sit morbi cras vel non et ut. Ut cursus justo leo nulla ridiculus pharetra egestas libero sed. Pellentesque odio feugiat volutpat amet.</div>
+            <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus blandit consequat. A sed placerat sapien amet scelerisque ullamcorper amet. Elementum consequat risus nullam augue lorem turpis rutrum enim. Sagittis magnis adipiscing non pulvinar ut lacus et montes molestie. Purus vitae risus laoreet vel quis volutpat facilisi justo sed. Sit morbi cras vel non et ut. Ut cursus justo leo nulla ridiculus pharetra egestas libero sed. Pellentesque odio feugiat volutpat amet.</div>
 
             <Title title = 'ІДЕЇ'></Title>
-            <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info1'></ImportantInfo>
-            <div className='EmptySpace'></div>
-            <ImportantInfo height = '595px' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info2'></ImportantInfo>
-            <div className='EmptySpace'></div>
+            <ImportantInfo height = '30.5vw' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info1'></ImportantInfo>
+            <ImportantInfo height = "30.5vw" title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info2'></ImportantInfo>
             <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
-            <Carousel images = {CarouselImages} width = "1480px"></Carousel>
+            <Carousel images = {CarouselImages} width = "100%"></Carousel>
 
             <Title title = 'ІДЕЇ'></Title>
-            <div className='Idea_Cards'>
+            <div className='IdeaCards'>
                 <IdeaCard backgroundImage = {IdeaCardImage1} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
                 <a className='Card_Margin'></a>
                 <IdeaCard backgroundImage = {IdeaCardImage2} title = 'НАША НОВА КОЛЛЕКЦІЯ'></IdeaCard>
