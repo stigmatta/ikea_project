@@ -1,3 +1,7 @@
+@media(max-width:750px){
+    
+}
+
 .CardOffer{
     display: flex;
     flex-direction: column;
@@ -48,14 +52,14 @@
 }
 
 .card-offer-title{
-    font-size: 14px;
+    font-size: clamp(11.5px,.7vw,14px);
     font-weight: 600;
     line-height: 17.07px;
     text-align: left;
 }
 
 .card-offer-small{
-    font-size: 14px;
+    font-size: clamp(11.5px,.7vw,14px);
     line-height: 17.07px;
     text-align: left;
     margin-bottom: 20px;

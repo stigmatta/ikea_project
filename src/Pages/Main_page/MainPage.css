@@ -8,6 +8,32 @@
     }
 }
 
+@media(max-width:750px){
+    #create-and-catalogue{
+        flex-direction: column !important;
+        gap:20px !important
+    }
+
+    #main-page-220px{
+        margin-inline:auto !important;
+        width: 80% !important;
+    }
+
+    #main-page-black-button,#catalogue-button{
+        width: 94% !important; 
+    }
+
+    #card-offers{
+        margin-top: 5% !important;
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .add-recs-display{
+        display: none !important;
+    }
+}
+
 @media (max-width:600px){
     #card-offers{
         margin-top: 15% !important;
@@ -22,25 +48,7 @@
     
 }
 
-@media(max-width:750px){
-    #create-and-catalogue{
-        flex-direction: column !important;
-        gap:20px !important
-    }
 
-    #main-page-black-button,#catalogue-button{
-        width: 94% !important; 
-    }
-
-    #card-offers{
-        margin-inline: 0 !important;
-        width: 100% !important;
-    }
-
-    .add-recs-display{
-        display: none !important;
-    }
-}
 
 
 
@@ -92,7 +100,7 @@
 #card-offers{
     display: flex;
     flex-direction: row;
-    gap:67px;
+    gap:5%;
     max-width: 801px;
     max-height: 250px;
     margin-top: 2%;

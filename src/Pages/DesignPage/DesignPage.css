@@ -3,6 +3,10 @@
         flex-direction: column !important;
         gap:60px !important;
     }
+
+    .shadow-card-div{
+        width: 90% !important;
+    }
 }
 
 @media (max-width:900px){
@@ -46,8 +50,8 @@
 .shadow-card-div{
     display: flex;
     flex-direction: row;
-    gap:143px;
-    width: fit-content;
+    justify-content: space-between;
+    width: 50%;
     margin-top: 57px;
     margin-inline:auto;
 }

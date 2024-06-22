@@ -188,7 +188,7 @@ const gallery3 = [
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>
-        <Gallery images={gallery1} dir = "column" height = "971px" />
+        <Gallery images={gallery1} dir = "column" height = "60vw" />
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <Gallery images={gallery2} width = "100%" />
