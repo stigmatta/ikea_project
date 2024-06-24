@@ -19,11 +19,10 @@
     flex-direction: column;
     position: relative;
     flex-wrap: wrap;
-    height: 56.4vw;
+    height: 60vw;
     row-gap: 1vw;
-    column-gap: 1vw;
-    align-content: flex-start;
-
+    align-content: space-between;
+    justify-content: space-between !important;
   }
 
   .one-idea {

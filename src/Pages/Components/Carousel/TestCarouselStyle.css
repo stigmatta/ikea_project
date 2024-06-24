@@ -62,7 +62,7 @@
 .carousel-container {
   overflow: hidden;
   display: block;
-  width: 1480px;
+  width: 100%;
 }
 
 .slick-list {

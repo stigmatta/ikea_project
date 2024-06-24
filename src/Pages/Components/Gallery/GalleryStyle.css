@@ -4,18 +4,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 36px;
-    row-gap:20px;
-    column-gap: 2%;
+    row-gap:1vw;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
-.gallery-one-image{
-    width: 40vw;
-}
 
 @media (max-width:700px){
     .gallery
     {
-        flex-direction: column;
+        flex-direction: column !important;
+        height: fit-content !important;
         
     }
     .gallery-one-image

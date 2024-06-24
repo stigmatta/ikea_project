@@ -44,22 +44,23 @@ const CarouselImages = [
 ]
 
 const IdeaImages = [
-    {src:IdeaImage1,width:"481px",height:"462px"},
-    {src:IdeaImage4,width:"481px",height:"596px"},
-    {src:IdeaImage7,width:"481px",height:"462px"},
-    {src:IdeaImage10,width:"481px",height:"678px"},
+    {src: IdeaImage1, width: "26.3vw", height: "24vw"},
+    {src: IdeaImage4, width: "26.3vw", height: "31vw"},
+    {src: IdeaImage7, width: "26.3vw", height: "24vw"},
+    {src: IdeaImage10, width: "26.3vw", height: "35.29vw"},
 
-    {src:IdeaImage2,width:"481px",height:"298px"},
-    {src:IdeaImage5,width:"481px",height:"463px"},
-    {src:IdeaImage8,width:"481px",height:"596px"},
-    {src:IdeaImage11,width:"481px",height:"477px"},
-    {src:IdeaImage13,width:"481px",height:"345px"},
+    {src: IdeaImage2, width: "26.3vw", height: "18.1vw"},
+    {src: IdeaImage5, width: "26.3vw", height: "24vw"},
+    {src: IdeaImage8, width: "26.3vw", height: "31vw"},
+    {src: IdeaImage11, width: "26.3vw", height: "20vw"},
+    {src: IdeaImage13, width: "26.3vw", height: "20vw"},
 
-    {src:IdeaImage3,width:"481px",height:"652px"},
-    {src:IdeaImage6,width:"481px",height:"550px"},
-    {src:IdeaImage9,width:"481px",height:"246px"},
-    {src:IdeaImage12,width:"481px",height:"750px"},
-]
+    {src: IdeaImage3, width: "26.3vw", height: "33.94vw"},
+    {src: IdeaImage6, width: "26.3vw", height: "28.63vw"},
+    {src: IdeaImage9, width: "26.3vw", height: "12.8vw"},
+    {src: IdeaImage12, width: "26.3vw", height: "39vw"},
+];
+
 
 function IdeaPage({ setCurrentPage })
 {
@@ -88,11 +89,11 @@ function IdeaPage({ setCurrentPage })
             </div>
 
             <Title title = 'ІДЕЇ'></Title>
-            <Ideas images = {IdeaImages} height = "2260px"></Ideas>
+            <Ideas images = {IdeaImages} height = "117.647vw"></Ideas>
             
 
             <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
-            <Carousel images = {CarouselImages} width = "1480px"></Carousel>
+            <Carousel images = {CarouselImages} width = "100%"></Carousel>
             
         </div>
     );

@@ -1,6 +1,7 @@
 @media (max-width:1350px){
     .IdeaCards{
         flex-direction: column !important;
+        gap:1vw !important;
     }
 }
 
@@ -13,7 +14,7 @@
 .IdeaCards{
     display: flex;
     flex-direction: row;
-    gap:1.1vw;
+    justify-content: space-between;
 }
 
 

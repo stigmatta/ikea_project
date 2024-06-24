@@ -49,8 +49,7 @@
 }
 
 .title-part img {
-    width: 30px;
-    height: 70%;
+    width: 3vw;
     position: relative;
     right: 5%;
     rotate: 180deg;

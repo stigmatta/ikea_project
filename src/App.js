@@ -17,7 +17,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("/");
 
   return (
-    <BrowserRouter basename = "/ikea_project">
+    <BrowserRouter basename="/ikea_project">
     <div className="App">
     {(currentPage !== "registration" && currentPage !== 'login' && currentPage !=='/' && currentPage != '/design')  && <Header />}
       <div>

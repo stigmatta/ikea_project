@@ -131,10 +131,10 @@ const bestSetsImages = [
 ]
 
 const galleryNewImages = [
-    {src: GalleryNew1, width: "28.66vw", height: "14.10vw"},
-    {src: GalleryNew2, width: "46.18vw", height: "14.10vw"},
-    {src: GalleryNew3, width: "46.41vw", height: "34.66vw"},
-    {src: GalleryNew4, width: "28.46vw", height: "34.66vw"}
+    {src: GalleryNew1, width: "33vw", height: "14.10vw"},
+    {src: GalleryNew2, width: "47vw", height: "14.10vw"},
+    {src: GalleryNew3, width: "45vw", height: "34.66vw"},
+    {src: GalleryNew4, width: "35vw", height: "34.66vw"}
 ];
 
 const catalogueImages = [
@@ -159,21 +159,21 @@ const catalogueImages = [
 ]
 
 const ideasImages = [
-    {src: IdeaImage1, width: "24.62vw", height: "30.53vw"},
-    {src: IdeaImage2, width: "24.62vw", height: "17.84vw"},
-    {src: IdeaImage3, width: "24.62vw", height: "17.84vw"},
-    {src: IdeaImage4, width: "24.62vw", height: "30.53vw"},
-    {src: IdeaImage5, width: "24.62vw", height: "30.53vw"},
-    {src: IdeaImage6, width: "24.62vw", height: "17.84vw"}
+    {src: IdeaImage1, width: "26.3vw", height: "30vw"},
+    {src: IdeaImage2, width: "26.3vw", height: "29vw"},
+    {src: IdeaImage3, width: "26.3vw", height: "30vw"},
+    {src: IdeaImage4, width: "26.3vw", height: "29vw"},
+    {src: IdeaImage5, width: "26.3vw", height: "30vw"},
+    {src: IdeaImage6, width: "26.3vw", height: "29vw"}
 ];
 
 const addIdeaImages = [
-    { src: AddIdea1, width: "24.62vw", height: "30.53vw" },
-    { src: AddIdea2, width: "24.62vw", height: "17.84vw" },
-    { src: AddIdea3, width: "24.62vw", height: "17.84vw" },
-    { src: AddIdea4, width: "24.62vw", height: "30.53vw" },
-    { src: AddIdea5, width: "24.62vw", height: "30.53vw" },
-    { src: AddIdea6, width: "24.62vw", height: "17.84vw" }
+    { src: AddIdea1, width: "26.3vw", height: "30vw" },
+    { src: AddIdea2, width: "26.3vw", height: "29vw" },
+    { src: AddIdea3, width: "26.3vw", height: "20vw" },
+    { src: AddIdea4, width: "26.3vw", height: "39vw" },
+    { src: AddIdea5, width: "26.3vw", height: "31vw" },
+    { src: AddIdea6, width: "26.3vw", height: "28vw" }
 ];
 
 export default function MainPage({ setCurrentPage })
@@ -229,10 +229,10 @@ export default function MainPage({ setCurrentPage })
                 </div>
                 
                 <Title title = "РЕКОМЕНДАЦІЇ"></Title>
-                <Carousel images = {recomCarouselImages} width = "1580px"></Carousel>
+                <Carousel images = {recomCarouselImages} width = "100%"></Carousel>
 
                 <Title title = "НАЙКРАЩІ НАБОРИ" mtop = "2.58vw"></Title>
-                <Carousel images = {bestSetsImages} width = "1580px"></Carousel>
+                <Carousel images = {bestSetsImages} width = "100%"></Carousel>
 
                 <Title title = "НОВИНКИ"></Title>
                 <Gallery images = {galleryNewImages} dir = "row" width="100%"></Gallery>

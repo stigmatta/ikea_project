@@ -140,18 +140,20 @@ export function RoomsPage({setCurrentPage}) {
     {src:Catalogue18}
 ]
 const gallery1 = [
-  { src: g1, width: '43.59vw', height: '24.46vw' },
-  { src: g2, width: '43.59vw', height: '24.30vw' },
-  { src: g3, width: '31.23vw', height: '14.10vw' },
-  { src: g4, width: '31.23vw', height: '34.62vw' }
+
+  
+  { src: g1, width: '42vw', height: '30vw' },
+  { src: g2, width: '42vw', height: '29vw' },
+  { src: g3, width: '41vw', height: '20vw' },
+  { src: g4, width: '41vw', height: '39vw' }
 ];
 
 
 const gallery2 = [
-  { src: g5, width: '50.82vw', height: '24.46vw' },
-  { src: g6, width: '24.05vw', height: '24.46vw' },
-  { src: g7, width: '23.90vw', height: '24.30vw' },
-  { src: g8, width: '51.18vw', height: '24.30vw' }
+  { src: g5, width: '44vw', height: '24.46vw' },
+  { src: g6, width: '39vw', height: '24.46vw' },
+  { src: g7, width: '38vw', height: '24.30vw' },
+  { src: g8, width: '45vw', height: '24.30vw' }
 ];
 
 
@@ -175,7 +177,7 @@ const gallery3 = [
       <div className="Rooms">
 
         <Title title = "КIМНАТИ"></Title>
-        <Carousel images = {carousel}></Carousel>
+        <Carousel images = {carousel} width = "100%"></Carousel>
         <SmallGallery images={smallGallery1} />
         <Title title = "ТОВАРИ"></Title>
         <ProductGallery products={products} />
@@ -188,7 +190,7 @@ const gallery3 = [
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <div className="underTitle">Lorem ipsum dolor sit amet consectetur. Gravida convallis id orci egestas non. Rhoncus vitae quis sem massa id imperdiet arcu vulputate. Magna id facilisi diam arcu ipsum. Magna accumsan sed urna non fermentum. Tristique in turpis dolor in pulvinar pellentesque faucibus.</div>
-        <Gallery images={gallery1} dir = "column" height = "60vw" />
+        <Gallery images={gallery1} dir = "column" height = "60vw" justify = "flex-start" align = "space-between" />
 
         <Title title ="IДЕЇ ДЛЯ ОФОРМЛЕННЯ"></Title>
         <Gallery images={gallery2} width = "100%" />
