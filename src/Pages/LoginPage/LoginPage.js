@@ -66,13 +66,13 @@ function LoginPage({ setCurrentPage }) {
             <img id = "info-button" src = {Info} alt="info-button" />
           </div>
 
-          <BlackButton title = "ПРОДОВЖИТИ" type = "submit" width = '428px' height = '50px'></BlackButton>
+          <BlackButton id = "log-black-button" title = "ПРОДОВЖИТИ" type = "submit" width = '428px' height = '50px'></BlackButton>
         
         </form>
 
       <small id = "create-acc">У вас ще немає облікового запису? Створіть його:</small>
-      <Link className='browser-link' to="/registration">
-        <TransparentButton title = "створити аккаунт" type = "button"></TransparentButton>
+      <Link className='browser-link' to="/registration" id = "log-trans-button">
+        <TransparentButton id = "log-trans-button" title = "створити аккаунт" type = "button"></TransparentButton>
       </Link>
     </div>
     </div>

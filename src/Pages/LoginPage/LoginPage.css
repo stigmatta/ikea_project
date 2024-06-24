@@ -39,7 +39,7 @@
     }
 
 
-    input,.password-input,.login-label small, .login-label a,#save-data-div,#create-acc{
+    input,.password-input,.login-label small, .login-label a,#save-data-div,#create-acc,#log-black-button,#log-trans-button{
         width: 100% !important;
     }
 
