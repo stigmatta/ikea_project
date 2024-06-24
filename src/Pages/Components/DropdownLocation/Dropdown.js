@@ -78,7 +78,7 @@ function MyDropdown() {
                 <SearchBar id = "location-searchbar" width = "381px" height = "50px" right = "15px" bg = "#F5F5F5"></SearchBar>
 
                 <div id = "items">
-                     <DropdownItem>
+                    <DropdownItem>
                         <ItemLocation title = "Одеса" onLocationSelect={setSelectedLocation}></ItemLocation>
                     </DropdownItem>
 
