@@ -1,14 +1,14 @@
 
 .Page{
     width:100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
 }
 
-#go-back{
-    margin-top: 43px;
+img#go-back{
+    margin-top: 3vw;
     margin-left: 2vw;
 }
 

@@ -5,13 +5,13 @@
 
     .ImagePart{
         width: 100% !important;
+        height: 40vh !important;
     }
 
     .ImagePartText{
         margin-top: 10px !important;
-        position: relative;
         bottom: 5vh !important;
-        width: 80% !important;
+        width: 95% !important;
     }
 
     .LoginFormPart{
@@ -63,11 +63,12 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 30%;
+    height: 100vh;
     top: -3px;
 }
 
 .LoginFormPart{
-    margin-top: 173px;
+    margin-top: 9vw;
     font-family: 'Montserrat', sans-serif;
     margin-left: 8vw;
 }
