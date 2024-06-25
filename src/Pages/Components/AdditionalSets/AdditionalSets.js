@@ -4,7 +4,7 @@ export default function AdditionalSets(props) {
   const sets = [];
 
   for (let i = 0; i < props.count; i++) {
-    sets.push(<div key={i} className="one-set">{props.title}</div>);
+    sets.push(<div key={i} style={{marginTop:props.mtop}} className="one-set">{props.title}</div>);
   }
 
   return <div className="Additional">{sets}</div>;

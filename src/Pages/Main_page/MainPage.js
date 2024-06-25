@@ -250,7 +250,7 @@ export default function MainPage({ setCurrentPage })
                     <Title title = "ДОДАТКОВІ РЕКОМЕНДАЦІЇ"></Title>
                     <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
                     <Ideas images = {addIdeaImages}></Ideas>
-                    <AdditionalSets title = "НАЗВА НАБОРУ" count = "8"></AdditionalSets>
+                    <AdditionalSets title = "НАЗВА НАБОРУ" count = "8" mtop = "1vw"></AdditionalSets>
                 </div>
                 
 
