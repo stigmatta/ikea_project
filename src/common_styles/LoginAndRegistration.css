@@ -19,14 +19,13 @@ input::-ms-clear {
 
 small{
     display: block;
-    margin-top: 10px;
+    margin-block: 1vw;
     color: var(--form-grey);
     font-size: 12px;
     font-weight: 400;
     line-height: 14.63px;
     text-align: left;
     width: 21.69vw;
-    height: 42px;
 }
 
 
