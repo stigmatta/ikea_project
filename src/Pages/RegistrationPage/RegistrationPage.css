@@ -4,11 +4,6 @@
     }
 }
 
-@media (max-width:1600px){
-    .reg-label,.reg-form,.reg-label small,{
-        width: 100% !important;
-    }
-}
 
 
 @media (max-width:960px) {
