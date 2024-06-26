@@ -1,5 +1,5 @@
 @media (max-width:1600px){
-    .password-input, input{
+    .password-input, input,form,.login-label{
         width: 100% !important;
     }
 }
