@@ -56,8 +56,10 @@
 
 
 .Page{
-    height: 100vh;
+    height: fit-content !important ;
 }
+
+
 
 .ImagePart{
     background: url(./assets/MainImage.jpeg);
@@ -72,6 +74,7 @@
     margin-top: 9vw;
     font-family: 'Montserrat', sans-serif;
     margin-left: 8vw;
+    padding-bottom: 3vw;
 }
 
 
