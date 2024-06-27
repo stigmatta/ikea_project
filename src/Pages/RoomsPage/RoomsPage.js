@@ -182,7 +182,7 @@ const gallery3 = [
         <Title title = "ТОВАРИ"></Title>
         <ProductGallery products={products} />
         <Title title = "ІНФОРМАЦІЯ"></Title>
-        <Important src = {i1} title = "ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
+        <Important height = "35vw" src = {i1} title = "ІНФОРМАЦІЯ" description = "Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra"></Important>
         <SmallGallery  images={smallGallery2} />
         <Title title = "КАТАЛОГ" mbottom = "1.2vw"></Title>
                 <Catalogue images = {catalogueImages} width = "8.15vw" height = "155px"></Catalogue>

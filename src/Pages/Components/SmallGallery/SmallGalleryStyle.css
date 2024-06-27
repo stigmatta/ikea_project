@@ -1,3 +1,8 @@
+@media (max-width:1680px){
+  .SmallGallery{
+    justify-content: space-between
+  };
+}
 @media (max-width:650px){
   .small-gallery-title{
     text-align: center;
