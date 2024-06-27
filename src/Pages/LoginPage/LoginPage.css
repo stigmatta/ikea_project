@@ -56,10 +56,8 @@
 
 
 .Page{
-    height: fit-content !important ;
+    height: 100vh;
 }
-
-
 
 .ImagePart{
     background: url(./assets/MainImage.jpeg);

@@ -25,6 +25,9 @@
     }
 }
 
+.Page{
+    height: fit-content;
+}
 .RegImagePart {
     width: 30%;
     margin-top: -3px;
