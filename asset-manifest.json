@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ikea_project/static/css/main.874a7dc0.css",
-    "main.js": "/ikea_project/static/js/main.3fa51097.js",
+    "main.js": "/ikea_project/static/js/main.9e01f26d.js",
     "static/js/453.d9bf85b3.chunk.js": "/ikea_project/static/js/453.d9bf85b3.chunk.js",
     "static/media/Catalogue13.png": "/ikea_project/static/media/Catalogue13.05331b22712cab472bf0.png",
     "static/media/BigRectCard.jpeg": "/ikea_project/static/media/BigRectCard.90ed73f0c88abebbf5aa.jpeg",
@@ -184,11 +184,11 @@
     "static/media/menu.svg": "/ikea_project/static/media/menu.e562fe33f1a7276cafaef52b4310f543.svg",
     "static/media/commonBr.svg": "/ikea_project/static/media/commonBr.01f8fd39cf506cd756185ce7861cafb2.svg",
     "main.874a7dc0.css.map": "/ikea_project/static/css/main.874a7dc0.css.map",
-    "main.3fa51097.js.map": "/ikea_project/static/js/main.3fa51097.js.map",
+    "main.9e01f26d.js.map": "/ikea_project/static/js/main.9e01f26d.js.map",
     "453.d9bf85b3.chunk.js.map": "/ikea_project/static/js/453.d9bf85b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.874a7dc0.css",
-    "static/js/main.3fa51097.js"
+    "static/js/main.9e01f26d.js"
   ]
 }
