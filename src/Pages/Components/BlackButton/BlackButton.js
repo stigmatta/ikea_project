@@ -4,7 +4,7 @@
 function BlackButton(props) {
 
   return (
-    <button id = {props.id} style = {{width: props.width,height:props.height}} type = {props.type} className="BlackButton">
+    <button onClick={props.onClick} id = {props.id} style = {{minWidth:props.minWidth,width: props.width,height:props.height,fontSize:props.fSize}} type = {props.type} className="BlackButton">
         {props.title}
     </button>
   );
